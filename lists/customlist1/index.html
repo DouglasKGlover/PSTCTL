@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PST CTL | Custom Trophy List V1.0</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script>
+            var listName = "custom-list-1";
+        </script>
+
+        <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/main.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="../../js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="../../js/vendor/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header">
+            <div class="row">
+                <div class="col-xs-6"><input type="button" class="form-control" value="Save Progress" id="saveProgress"/></div>
+                <div class="col-xs-6"><input type="button" class="form-control" value="Create BBCode" data-toggle="modal" data-target="#bbCode" id="create-signup"/></div>
+            </div>
+        </div>
+        
+        <div class="banner">
+            <img src="http://www.ps3trophies.org/forum/members/savenger-albums-gfx-images-picture23169-50-header.png" class="img-responsive center-block" alt="Custom Trophy List V1.0"/>
+        </div>
+
+        <div class="container">
+            <div class="row trophy-count-container">
+                <h2 id="trophies-earned"><span id="trophy-count">0</span>/<span id="trophy-total">0</span> Trophies Earned</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                            Select a Custom List
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <script type="text/javascript" src="../../js/nav.js"></script>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-xs col-sm-6 col-lg-7"></div>
+                <div class="col-xs-12 col-sm-4 col-lg-3">
+                    <input type="button" id="hide-collected" class="form-control" value="Hide collected trophies"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row list-item" id="custom-list-1-1">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/365/41.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>3D Dot Game Heroes</h2>
+                    <p>That's a Big Fat Sword! - Maxed out the Giga Sword.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-2">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/671/26.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Alice: Madness Returns</h2>
+                    <p>Seasoned Campaigner - Pepper All Snouts in the Game.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-3">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/260/21.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Assassin's Creed II</h2>
+                    <p>Vitruvian Man - Unlock all 20 pieces of Subject 16's video</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-4">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/192/37.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Batman: Arkham Asylum</h2>
+                    <p>Invisible Predator - Complete one predator challenge by using only Silent Takedowns.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-5">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/326/40.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Battlefield: Bad Company 2</h2>
+                    <p>Mission...Accomplished - Online: in a round for one kill with the knife, the M60 and the RPG-7</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-6">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/52/48.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Bayonetta</h2>
+                    <p>Naughty Tentacles - Destroy all the tentacles that drop down together during a single sequence in Chapter 9.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-7">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/23/29.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Bioshock</h2>
+                    <p>Research PhD - Max out all possible research</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-8">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/39/08.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Borderlands</h2>
+                    <p>United We Stand - Defeated the Rakk Hive, the Vault Boss, Sledge, Krom, or Flynt in a co-op game</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-9">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/356/26.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Brink</h2>
+                    <p>Brinkmanship - Complete an Operative Primary Objective within 5 seconds of breaking disguise</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-10">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/1/032.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Burnout Paradise</h2>
+                    <p>Shutdown the Carson Inferno Van - Awarded when you Shutdown the Carson Inferno Van</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-11">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/240/25.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Call of Duty: Modern Warfare 2</h2>
+                    <p>Colonel Sanderson - Kill 7 chickens in under 10 seconds in 'The Hornet's Nest'</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-12">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/41/012.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Call of Duty: World at War</h2>
+                    <p>Blowtorch and Corkscrew - Complete 'Blowtorch and Corkscrew' on Veteran Difficulty</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-13">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/380/40.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Catherine</h2>
+                    <p>Altar Conquered - Complete Stage 1 of Babel.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-14">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/276/13.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Darksiders</h2>
+                    <p>Who's Counting? - Defeat more angels than Ulthane</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-15">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/930/29.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Dead Island</h2>
+                    <p>Right 4 Life - Complete act I with 4 different characters.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-16">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/325/04.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Dead Rising 2</h2>
+                    <p>Zombie Genocide Master - Kill 72,000 zombies.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-17">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/355/08.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Dead Space 2</h2>
+                    <p>Elevator Action - Knock off every Tripod during the Elevator Sequence</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-18">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/245/30.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Demon's Souls</h2>
+                    <p>Penetrator's Trophy - Slayer of Demon "Penetrator"</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-19">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/450/11.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Deus Ex: Human Revolution</h2>
+                    <p>Deus Ex Machina - Experience all the different endings that Deus Ex: Human Revolution has to offer</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-20">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/270/11.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Dragon Age: Origins</h2>
+                    <p>Recruiter - Across all playthroughs, recruited all party members</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-21">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/730/18.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Duke Nukem Forever</h2>
+                    <p>Turd Burglar - Find and steal a piece of poo</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-22">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/70/048.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Fallout 3</h2>
+                    <p>The Bigger They Are... - Kill all the Super Mutant Behemoths</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-23">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/307/32.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Final Fantasy XIII</h2>
+                    <p>Adamant Will - Felled a heavyweight of the lowerworld wilds</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-24">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/319/003.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>God of War III</h2>
+                    <p>aMAZEd - Beat the Labyrinth without dying or failing</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-25">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/320/04.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Gran Turismo 5</h2>
+                    <p>Rollover - Total a car by flipping it over</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-26">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/33/008.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Grand Theft Auto IV</h2>
+                    <p>Gobble Gobble - You got a turkey in 10 pin bowling.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-27">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/321/25.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Heavy Rain</h2>
+                    <p>Gold Finger - The Lizard - Cut your finger using axe, knife or pliers + disinfect or cauterize the wound</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-28">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/122/1.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>inFamous</h2>
+                    <p>Hotfoot - Travel 25 kilometers while riding the rails.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-29">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/329/01.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Just Cause 2</h2>
+                    <p>Gravity is a Bitch! - Kill 30 enemies by using the grappling hook and making them fall to their death</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-30">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/430/25.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Killzone 3</h2>
+                    <p>Completist - Destroyed every destructible weapon on the MAWLR while on foot and on the Intruder</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-31">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/358/36.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>L.A. Noire</h2>
+                    <p>The Moose - Tail Candy Edwards from the parking lot to her destination without using cover or going incognito, except when starting or picking up the tail</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-32">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/820/34.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Lego Pirates of the Caribbean</h2>
+                    <p>Sea turtles, mate - Ride on all types of animal in the game</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-33">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/14/41.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>LittleBigPlanet</h2>
+                    <p>Play - Complete all story levels without dying, with the exception of those levels that only end when you die</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-34">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/538/13.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Marvel vs. Capcom 3</h2>
+                    <p>Combat Specialist - In Ranked Match, surpass the '1st' class rank, or fight someone who has</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-35">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/703/29.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Mass Effect 2</h2>
+                    <p>No One Left Behind - Keep your team alive through the suicide mission</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-36">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/43/023.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Mirror's Edge</h2>
+                    <p>Chapter 2 Speedrun - Complete a Speedrun of Chapter 2 below the target time.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-37">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/610/37.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Portal 2</h2>
+                    <p>Iron Grip - Never lose a cube in Chamber 6 of the Mass and Velocity co-op course</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-38">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/767/15.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Prince of Persia: The Sands of Time</h2>
+                    <p>Game Master - Complete the game rewinding the time less than 20 times</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-39">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/241/18.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Ratchet & Clank: A Crack in Time</h2>
+                    <p>My Blaster Runs Really, Really Hot - Score 10,000 points on My Blaster Runs Hot</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-40">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/340/40.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Red Dead Redemption</h2>
+                    <p>Unnatural Selection - Kill one of every animal species in the game in any game mode</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-41">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/81/022.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Resident Evil 5</h2>
+                    <p>All Dressed Up - Purchase all available alternate costumes in Bonus Features</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-42">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/874/20.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Shadow of the Colossus</h2>
+                    <p>Climber - Reached the top of the shrine</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-43">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/426/35.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>SOCOM 4</h2>
+                    <p>Expert Tactician - Complete a Story Campaign mission using only teammates to eliminate enemies</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-44">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/506/84.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Spider-Man: Shattered Dimensions</h2>
+                    <p>Missed Me! - Defeat a boss on any difficulty level without taking damage</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-45">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/195/48.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Star Wars: The Force Unleashed</h2>
+                    <p>Worst Day-Shift Manager Ever - Kill 12 Stormtroopers as Vader during the Prologue</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-46">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/112/011.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Terminator Salvation</h2>
+                    <p>Veteran Commander - Complete the Game - Become a Commander on Hard difficulty</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-47">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/298/44.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>The Saboteur</h2>
+                    <p>High Diver - You jumped from the Eiffel Tower and survived.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-48">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/214/42.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Uncharted 2</h2>
+                    <p>Steel Fist Expert - Defeat ten enemies in a row with a single punch, after softening them up with gunfire</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-49">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/9/54.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Warhawk</h2>
+                    <p>What's That Green Line? - Get killed by a Binoculars strike while piloting an aircraft.</p>
+                </div>
+            </div>
+            <div class="row list-item" id="custom-list-1-50">
+                <div class="col-xs-1">
+                    <input type="checkbox" class="checkbox"/>
+                </div>
+                <div class="col-xs-1 trophy-icon">
+                    <img src="http://www.ps3trophies.org/images/trophies/21/019.jpg" alt="Trophy Icon"/>
+                </div>
+                <div class="col-sm-10 col-xs-12">
+                    <h2>Wipeout HD</h2>
+                    <p>Own the Zone - Get 20 consecutive perfect zones in a single Zone Mode event</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modals -->
+        <div class="modal fade" id="bbCode">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title">Sign Up BBCode</h4>
+                    </div>
+                    <div class="modal-body">
+<pre id="bbCodeContent">
+You haven't saved any trophies!
+Click "Save Progress" to save before getting your sign up code!
+</pre>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="http://www.playstationtrophies.org/forum/custom-trophy-lists/237518-staff-custom-list-sign-up-thread.html" target="_blank">Don't forget to post your PSN ID!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../js/plugins.js"></script>
+        <script src="../../js/main.js"></script>
+
+        <!-- Google Analytics -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-48989090-3');ga('send','pageview');
+            $("#saveProgress").click(ga('send', 'event', 'Page Actions', 'Progress Saved'));
+        </script>
+    </body>
+</html>

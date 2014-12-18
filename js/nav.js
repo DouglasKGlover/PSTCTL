@@ -5,13 +5,19 @@ document.write(''+
 	'<li role="presentation"><a href="../customlist1/">Custom Trophy List V1.0</a></li>'+
 	'<li role="presentation"><a href="../customlist2/">Custom Trophy List V2.0</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
+	'<li role="presentation"><a href="../apple/">Apple\'s Alternatives</a></li>'+
+	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../bread/">Bread\'s Y U No Play These Games</a></li>'+
+	'<li role="presentation" class="divider"></li>'+
+	'<li role="presentation"><a href="../dafaztfingaz/">DaFaztFingaz\' Faztezt Fingaz</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../fletch/">Fletch\'s "Valar Morghulis"</a></li>'+
 	'<li role="presentation"><a href="../football/">Football\'s Favourites</a></li>'+
     '<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../germain/">Germain\'s Japanese Gems</a></li>'+
 	'<li role="presentation"><a href="../glenn/">Glenn\'s Comedy Club of Trophies</a></li>'+
+    '<li role="presentation" class="divider"></li>'+
+    '<li role="presentation"><a href="../harry/">Harry\'s "Bestest of Friends"</a></li>'+
     '<li role="presentation" class="divider"></li>'+
     '<li role="presentation"><a href="../irvine/">Irvine\'s Idyllic Inventory of Trophies</a></li>'+
 	'<li role="presentation" class="divider"></li>'+

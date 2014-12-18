@@ -1,4 +1,4 @@
-var listList = ["christmas", "bread", "fletch", "football", "germain", "glenn", "irvine", "labartu", "mendel", "olsen", "shadow", "tech", "terminator", "tuffmuff", "vyrastas", "woody"];
+var listList = ["apple", "christmas", "bread", "dafaztfingaz", "fletch", "football", "germain", "glenn", "harry", "irvine", "labartu", "mendel", "olsen", "shadow", "tech", "terminator", "tuffmuff", "vyrastas", "woody"];
 
 var christmasList = [
     ["Devil May Cry HD","Cold Turkey - Fight Griffon a second time and prevail","http://www.playstationtrophies.org/images/trophies/1223/BD5.jpg"],
@@ -13,6 +13,39 @@ var christmasList = [
     ["Resistance 3","Resistance 3 - Make Santa and his reindeer fly","http://www.playstationtrophies.org/images/trophies/546/10.jpg"],
     ["The Wolf Among Us","A Light Snowfall - Completed Episode 1: \"Faith\"","http://www.playstationtrophies.org/images/trophies/1996/3EE.jpg"],
     ["Toejam & Earl","Even Adults Like Presents - [TJ&E] Snag some goodies from Santa.","http://www.playstationtrophies.org/images/trophies/1758/944.jpg"]
+];
+
+var appleList = [
+    ["3D Dot Game Heroes","Triple 7s! - Collected 777G.","http://www.playstationtrophies.org/images/trophies/573/84E.jpg"],
+    ["Atelier Ayesha: The Alchemist of Dusk","A Garden of Memories - You've collected a lot of memories. It's proof that you went on a long journey.","http://www.playstationtrophies.org/images/trophies/1610/DAA.jpg"],
+    ["Atelier Escha & Logy: The Alchemists of Dusk Sky","A Grand Triumph - Stopped Flameu after she released her true power.","http://www.playstationtrophies.org/images/trophies/2147/2D4.jpg"],
+    ["Castlevania: Lords of Shadow","Master jeweler - Gather all hidden magic gems","http://www.playstationtrophies.org/images/trophies/420/30.jpg"],
+    ["Catherine","Take Your Time - Move a Dark Block 10 times in a row. (Golden Playhouse)","http://www.playstationtrophies.org/images/trophies/1011/33.jpg"],
+    ["Child of Eden","Wanderer - Obtained all items in the Journey Archive.","http://www.playstationtrophies.org/images/trophies/626/16.jpg"],
+    ["Child of Light","Perfect Sonnet - Collect all Confessions.","http://www.playstationtrophies.org/images/trophies/2783/205.jpg"],
+    ["Danganronpa: Trigger Happy Havoc","Mr. Know-It-All - Filled in every page of every character's Report Card","http://www.playstationtrophies.org/images/trophies/2542/DA1.jpg"],
+    ["Danganronpa 2: Goodbye Despair","Gotta Raise 'Em All! - Fully raised every type of pets","http://www.playstationtrophies.org/images/trophies/3041/c9a.jpg"],
+    ["Dyad","Giraffes? Giraffes! In Outer Space - Complete the Trophy Level for Giraffes? Giraffes! In Outer Space","http://www.playstationtrophies.org/images/trophies/1633/C82.jpg"],
+    ["El Shaddai: Ascension of the Metatron","No Problem - Finish any chapter without collecting any armor-recovery items.","http://www.playstationtrophies.org/images/trophies/596/42.jpg"],
+    ["Entwined","Resolution - Finish all the Lifetimes as the evolved Dragon","http://www.playstationtrophies.org/images/trophies/2834/2d2.jpg"],
+    ["Flower","Dream - Beyond all flowers lies another room.","http://www.playstationtrophies.org/images/trophies/95/000.jpg"],
+    ["Gravity Rush","Top Cat - Raised Kat's reputation to \"Top Cat.\"","http://www.playstationtrophies.org/images/trophies/1392/40.jpg"],
+    ["ICO","Bench Warmer - Save at all save points","http://www.playstationtrophies.org/images/trophies/749/13.jpg"],
+    ["Journey","Transcendence - Collect all unique glowing symbols across one or more journeys.","http://www.playstationtrophies.org/images/trophies/844/E0E.jpg"],
+    ["Majin and the Forsaken Kingdom","Chatterbox - Talk to the Majin 100 times.","http://www.playstationtrophies.org/images/trophies/504/27.jpg"],
+    ["New Little King's Story","All-time Submonster Champion - Obliterated Blue Dragon","http://www.playstationtrophies.org/images/trophies/1482/13.jpg"],
+    ["Ni no Kuni: Wrath of the White Witch","Treasure Hunter - Awarded for finding all hidden treasure chests.","http://www.playstationtrophies.org/images/trophies/1399/B5C.jpg"],
+    ["NieR","Educated Warrior - Read the final novel segment.","http://www.playstationtrophies.org/images/trophies/379/17.jpg"],
+    ["Okami HD","All Creatures Great and Small	- Complete your Animal Tome.","http://www.playstationtrophies.org/images/trophies/1603/3BE.jpg"],
+    ["Resonance of Fate","Four-Terminal Chain - A trophy for connecting four distinct terminals.","http://www.playstationtrophies.org/images/trophies/339/02.jpg"],
+    ["Shadow of the Colossus","Tower of Prayer - Save at all save points","http://www.playstationtrophies.org/images/trophies/874/28.jpg"],
+    ["Tales of Graces f","Gagonged! - Defeated the Rockgagong.","http://www.playstationtrophies.org/images/trophies/1702/E98.jpg"],
+    ["Tales of Hearts R","200-Hit Combo - Hit after hit after hit after hit after hit! You lay it on so thick and fast, the enemy doesn't stand a chance!","http://www.playstationtrophies.org/images/trophies/3194/69d.jpg"],
+    ["Tears to Tiara II: Heir of the Overlord","Stage 22 Complete - Clear stage 22.","http://www.playstationtrophies.org/images/trophies/3179/e2f.jpg"],
+    ["Tokyo Jungle","Jungle Man - Survive 45 years in SURVIVAL.","http://www.playstationtrophies.org/images/trophies/1518/E71.jpg"],
+    ["Virtue's Last Reward","A Certain Point of View - Caught a glimpse of another time.","http://www.playstationtrophies.org/images/trophies/1796/CA1.jpg"],
+    ["Zone of the Enders HD","Benedict Arnold - Defeat 10 enemies while controlling the Raptor","http://www.playstationtrophies.org/images/trophies/1056/FA9.jpg"],
+    ["Zone of the Enders: The 2nd Runner HD","Is It Hot In Here? - Reveal Ken's alternate outfit","http://www.playstationtrophies.org/images/trophies/1057/2DC.jpg"]
 ];
 
 var breadList = [
@@ -48,6 +81,39 @@ var breadList = [
     ["Yakuza 4","Heir to the Powerful - Max out all characters to level 20.","http://www.playstationtrophies.org/images/trophies/586/10.jpg"]
 ];
 
+var dafaztfingazList = [
+    ["Borderlands","Speedy McSpeederton - Raced around the Ludicrous Speedway in record time","http://www.ps3trophies.org/images/trophies/39/13.jpg"],
+    ["Call of Duty: World at War","Sum of All Zeros - Down 45 Japanese Zeros in 'Black Cats'. (Solo only)","http://www.ps3trophies.org/images/trophies/41/041.jpg"],
+    ["Crysis 2","Speeding Ticket - Break the speed limit in front of 10 speed cameras","http://www.ps3trophies.org/images/trophies/377/36.jpg"],
+    ["Dead Space","Crackshot - Achieve a perfect score in the Shooting Gallery","http://www.ps3trophies.org/images/trophies/26/031.jpg"],
+    ["Derrick the Deathfin","SPEED NEED - Get a gold medal in a speed level","http://www.ps3trophies.org/images/trophies/1536/B3D.jpg"],
+    ["Deus Ex: Human Revolution","Good Soul - Against all odds, you saved Faridah Malik's life.","http://www.ps3trophies.org/images/trophies/450/40.jpg"],
+    ["Devil May Cry 3 HD","Hellish Honor - Achieve an S Rank on all missions (any difficulty or character).","http://www.ps3trophies.org/images/trophies/1225/43F.jpg"],
+    ["Dyad","Miracles - Complete the Trophy Level for Miracles","http://www.ps3trophies.org/images/trophies/1633/485.jpg"],
+    ["God of War","Speed of Jason McDonald - Beat the game in under 5 hours on any Difficulty","http://www.ps3trophies.org/images/trophies/263/3.jpg"],
+    ["Gran Turismo 5","GT-R Official Record - Achieve a time of 7'29.03 on the Nurburgring Nordschleife in a Nissan GT-R '07. The record must be achieved in a Time Trial in the Arcade mode version of the car with tires of Sports Hard grade or lower equipped.","http://www.ps3trophies.org/images/trophies/320/04.jpg"],
+    ["Grand Theft Auto 5","Close Shave - Complete all Under the Bridge and Knife Flight challenges.","http://www.ps3trophies.org/images/trophies/687/883.jpg"],
+    ["Hitman: Absolution","The Russian Hare - 47 precision headshots using a sniper rifle","http://www.ps3trophies.org/images/trophies/678/4D2.jpg"],
+    ["Just Cause 2","Stunt Flyer - Fly an airplane close to the ground for 30 seconds.","http://www.ps3trophies.org/images/trophies/329/01.jpg"],
+    ["Karateka","Swift Victory - Rescued Mariko in under 30 minutes","http://www.ps3trophies.org/images/trophies/1397/122.jpg"],
+    ["Killzone 2","Killing Spree - Kill 5 Helghast in 15 seconds - Kill 5 Helghast in 15 seconds whilst on foot and maintaining at least 85% health","http://www.ps3trophies.org/images/trophies/42/024.jpg"],
+    ["Kingdom Hearts Final Mix HD","One-Winged Angel - Defeat Sephiroth in the Platinum Match at Olympus Coliseum","http://www.ps3trophies.org/images/trophies/1939/282.jpg"],
+    ["Mirror's Edge","Chapter 3 Speedrun - Complete a Speedrun of Chapter 3 below the target time.","http://www.playstationtrophies.org/images/trophies/43/024.jpg"],
+    ["Prince of Persia","Speed Kill - Kill 10 generic enemies before they spawn.","http://www.ps3trophies.org/images/trophies/59/013.jpg"],
+    ["Prototype","Au - Achieve a rating of Gold or better in all Events.","http://www.ps3trophies.org/images/trophies/152/37.jpg"],
+    ["Pure","Zero to hero - Acquire a special trick within 30 secs of a Race starting.","http://www.ps3trophies.org/images/trophies/132/2.jpg"],
+    ["Rage","Just a Flesh Wound - Complete the final round of 5 Finger Filet","http://www.ps3trophies.org/images/trophies/354/18.jpg"],
+    ["Red Faction: Armageddon","Lock And Load - Keep Berserk active for at least 21 seconds in one use.","http://www.ps3trophies.org/images/trophies/583/35.jpg"],
+    ["Red Faction: Guerrilla","Warp Speed - Beat all Transporter Pro times.","http://www.ps3trophies.org/images/trophies/142/15.jpg"],
+    ["Remember Me","Dropping L-Bombs - Trigger two Logic Bombs in less than 15 seconds","http://www.ps3trophies.org/images/trophies/1671/932.jpg"],
+    ["Retro/Grade","Pro Campaign Complete - Beat the game on the Pro difficulty or harder","http://www.ps3trophies.org/images/trophies/1684/C61.jpg"],
+    ["Super Stardust HD","Token Hoarder - Arcade - Collect 15 tokens with a single boost","http://www.ps3trophies.org/images/trophies/13/silver.jpg"],
+    ["Swarm","In A Hurry - Achieve a 2X time bonus","http://www.ps3trophies.org/images/trophies/630/05.jpg"],
+    ["The Darkness II","Skeet Shoot - Throw an enemy into the air and kill him with gunfire before he lands","http://www.ps3trophies.org/images/trophies/685/31.jpg"],
+    ["Velocity Ultra","Neutrino Speed Is Too Slow - Earn a PERFECT medal on all Critical Urgency zones.","http://www.ps3trophies.org/images/trophies/2055/A0E.jpg"],
+    ["WipEout HD","Zone Zeus - In Zone Mode, reach Zone 75 on any track.","http://www.ps3trophies.org/images/trophies/21/023.jpg"]
+];
+
 var fletchList = [
     ["Assassin's Creed III","Jager Bomb – After becoming fully notorious, kill 10 Jagers before losing your notoriety.","http://www.playstationtrophies.org/images/trophies/1400/A2A.jpg"],
     ["Assassin's Creed IV: Black Flag","Roped In – Perform 5 air assassinations from a swinging rope.","http://www.playstationtrophies.org/images/trophies/1949/F36.jpg"],
@@ -79,39 +145,6 @@ var fletchList = [
     ["Tomb Raider","Predator – Kill 50 enemies with the bow","http://www.playstationtrophies.org/images/trophies/831/EBC.jpg"],
     ["Uncharted 2: Among Thieves","Survivor – Defeat 75 enemies in a row without dying","http://www.playstationtrophies.org/images/trophies/214/14.jpg"],
     ["Uncharted 3: Drake’s Deception","Expert Ninja – Defeat 5 enemies in a row using Stealth attacks","http://www.playstationtrophies.org/images/trophies/373/42.jpg"]
-];
-
-var irvineList = [
-    ["Back to the Future: The Game","Back In Time - Traveled back in time to rescue Doc.","http://www.playstationtrophies.org/images/trophies/591/02.jpg"],
-    ["Bioshock 2","Grand Daddy - Defeated 3 Big Daddies without dying during the fight.","http://www.playstationtrophies.org/images/trophies/309/28.jpg"],
-    ["Brink","Not over till the fat lady sings! - Take down an enemy with gunfire while knocked down","http://www.playstationtrophies.org/images/trophies/356/14.jpg"],
-    ["Call of Duty Classic","War Hero - Complete the game on Veteran difficulty","http://www.playstationtrophies.org/images/trophies/277/31.jpg"],
-    ["Call of Duty: World at War ","For the Motherland - Complete 'Heart of the Reich' on Veteran difficulty. (Solo only)","http://www.playstationtrophies.org/images/trophies/41/014.jpg"],
-    ["Dead Rising 2","Zombie Genocide Master - Kill 72,000 zombies","http://www.playstationtrophies.org/images/trophies/325/04.jpg"],
-    ["Dead Space","There's Always Peng - Find the Peng Treasure","http://www.playstationtrophies.org/images/trophies/26/047.jpg"],
-    ["Duke Nukem Forever","Balls of Steel - Earn a 1,000,000 pinball score in SP","http://www.playstationtrophies.org/images/trophies/730/30.jpg"],
-    ["EA Sports UFC","It’s Showtime! - KO an opponent via cage kick","http://www.playstationtrophies.org/images/trophies/2094/b3c.jpg"],
-    ["Eat Lead: The Return of Matt Hazard","Pure Energy - Kill 50 enemies with the Energy Pistol. 'Blaster? I hardly know 'er!'","http://www.playstationtrophies.org/images/trophies/93/042.jpg"],
-    ["Far Cry 3","Say Hi to the Internet - Find the lost Hollywood star.","http://www.playstationtrophies.org/images/trophies/922/00F.jpg"],
-    ["FIFA 14","No Goal For You! - Perform a Diving Header Clearance","http://www.playstationtrophies.org/images/trophies/1854/EA4.jpg"],
-    ["FIFA Street","Street Legend - Defeat Messi in a street challenge game","http://www.playstationtrophies.org/images/trophies/1152/396.jpg"],
-    ["Guacamelee","That was Hard Mode? - Defeat the game on Hard mode","http://www.playstationtrophies.org/images/trophies/1568/0A3.jpg"],
-    ["Hotline Miami","Get A Life - Get A+ on all the chapters","http://www.playstationtrophies.org/images/trophies/1923/CBA.jpg"],
-    ["Jak and Daxter: The Precursor Legacy HD (Jak 1 HD)","The Super Orberator - Collect 2000 Precursor Orbs","http://www.playstationtrophies.org/images/trophies/1217/992.jpg"],
-    ["Jetpack Joyride","Romeo Alpha Delta - Fly over 5kms","http://www.playstationtrophies.org/images/trophies/1819/C8B.jpg"],
-    ["LEGO Harry Potter: Years 1-4","Quiet Please! - Turn the sound and music down to 0 in the options menu whilst in the library","http://www.playstationtrophies.org/images/trophies/331/33.jpg"],
-    ["LEGO Marvel Super Heroes","Avengers Assembled - Collect all Avengers characters in the game (Single Player)","http://www.playstationtrophies.org/images/trophies/1875/E0F.jpg"],
-    ["LittleBigPlanet 2","Aces in Spades - Ace 10 different Story levels in a row","http://www.playstationtrophies.org/images/trophies/533/09.jpg"],
-    ["Mirror's Edge","Aaaand Safe! - String together the following: wallrun, jump, coil (over obstacle), skill roll","http://www.playstationtrophies.org/images/trophies/43/035.jpg"],
-    ["NCIS","Hey, I'm a hacker - Complete first database search","http://www.playstationtrophies.org/images/trophies/1253/03.jpg"],
-    ["Need for Speed: Most Wanted","Fast Forward - Trigger a speed camera at over 200mph (321.97km/h)","http://www.playstationtrophies.org/images/trophies/1579/EB1.jpg"],
-    ["PlayStation All-Stars Battle Royale","Mr. Bubbles - Complete Arcade Mode with Big Daddy","http://www.playstationtrophies.org/images/trophies/1308/CC2.jpg"],
-    ["Prison Break","Invisible - Complete every chapter without being seen.","http://www.playstationtrophies.org/images/trophies/403/43.jpg"],
-    ["Saints Row IV","Zoo Keeper - Kill 25 Wardens.","http://www.playstationtrophies.org/images/trophies/1971/7E3.jpg"],
-    ["Sniper Elite V2","Deadeye - Snipe an enemy through his eye","http://www.playstationtrophies.org/images/trophies/988/360.jpg"],
-    ["The Cave","Win-win-win-win-win-win-win - Everyone reached the bottom.","http://www.playstationtrophies.org/images/trophies/1554/EC2.jpg"],
-    ["The Saboteur","Trick or Treat - You stealth killed a Nazi General while disguised.","http://www.playstationtrophies.org/images/trophies/298/43.jpg"],
-    ["X-Men Origins: Wolverine","Found! - You found a mysterious hatch!","http://www.playstationtrophies.org/images/trophies/113/039.jpg"]
 ];
 
 var footballList = [
@@ -211,6 +244,72 @@ var germainList = [
     ["Under Defeat HD: Deluxe Edition","STOCKPILING ARMS - SCORE A SPECIFIC AMOUNT OR HIGHER FOR AMMUNITION CONSERVATION","http://www.playstationtrophies.org/images/trophies/1753/0F0.jpg"],
     ["Virtua Fighter 5: Final Showdown","Ten Tests Complete - Complete ten tests in License Challenge Mode","http://www.playstationtrophies.org/images/trophies/1169/8C6.jpg"],
     ["Ys: Memories of Celceta","Better Man - Defeated Duren in one-on-one combat.","http://www.playstationtrophies.org/images/trophies/2412/738.jpg"]
+];
+
+var harryList = [
+    ["Assassins Creed II","An Old Friend Returns - Escape the hideout.","http://www.playstationtrophies.org/images/trophies/260/19.jpg"],
+    ["Back to the Future The Game","Hello, Young Friend - Talked Emmett into completing the Rocket Drill","http://www.playstationtrophies.org/images/trophies/1245/08.jpg"],
+    ["Burnout Paradise","Invite a friend to join you in Paradise City - Awarded for sending an online game invite to another player","http://www.playstationtrophies.org/images/trophies/1/039.jpg"],
+    ["Buzz! Junior: RoboJam","Feathered Friend - Score a minimum of 2500 points in single player mode in Pillow Fight.","http://www.playstationtrophies.org/images/trophies/136/07.jpg"],
+    ["Fallout New Vegas","Making Friends - Reactivated all of the Sink's robotic assistants.","http://www.playstationtrophies.org/images/trophies/343/63.jpg"],
+    ["Family Guy: Back To The Multiverse","Help From My Friends - Use the collectible special inventory items 25 times in Story Mode","http://www.playstationtrophies.org/images/trophies/1532/126.jpg"],
+    ["Grand Theft Auto IV","Pool Shark - You beat a friend at pool.","http://www.playstationtrophies.org/images/trophies/33/003.jpg"],
+    ["Grand Theft Auto V","A Friendship Resurrected - With friends like this who needs enemies?","http://www.playstationtrophies.org/images/trophies/3057/7b4.jpg"],
+    ["Hannah Montana: The Movie Video Game","Bullseye - Play the Horse Races game at the Fair with three of your friends.","http://www.playstationtrophies.org/images/trophies/121/012.jpg"],
+    ["HEAVY RAIN","Good Friends - The Park - Play two games with Shaun successfully and buy him candy","http://www.playstationtrophies.org/images/trophies/321/08.jpg"],
+    ["Hotline Miami","I Got New Friends - Unlock All Weapons","http://www.playstationtrophies.org/images/trophies/1923/4F4.jpg"],
+    ["LittleBigPlanet","Friendly - Complete a level with more than one player","http://www.playstationtrophies.org/images/trophies/14/19.jpg"],
+    ["Max Payne 3","Dearest of all my friends - Kill somebody on your friends list","http://www.playstationtrophies.org/images/trophies/353/05C.jpg"],
+    ["PlayStation All-Stars Battle Royale","Friend of the People - Complete Arcade Mode with Toro","http://www.playstationtrophies.org/images/trophies/1308/C00.jpg"],
+    ["Ratchet and Clank All 4 One","Friendship through Firepower - Buy your first weapon.","http://www.playstationtrophies.org/images/trophies/704/33.jpg"],
+    ["Ratchet and Clank 3: Up Your Aresnal","Friend of the Rangers - Complete every battle mission","http://www.playstationtrophies.org/images/trophies/2901/efb.jpg"],
+    ["Red Dead Redemption","Friends in High Places - Use a pardon letter with more than $5000 bounty in Single Player.","http://www.playstationtrophies.org/images/trophies/340/32.jpg"],
+    ["Resident Evil 5","A Friend in Need - Save partner 10 times when HELP is displayed.","http://www.playstationtrophies.org/images/trophies/81/028.jpg"],
+    ["Saints Row IV","Friend of the Raptors - Complete all Five Missions","http://www.playstationtrophies.org/images/trophies/1971/57.jpg"],
+    ["Sam and Max The Devils Playhouse - Episode 4 Beyond the Alley of Dolls","Tell 'Em Penn Says Hi - Impressed friends with card trick","http://www.playstationtrophies.org/images/trophies/659/06.jpg"],
+    ["Sniper Elite III","Sniping with friends - Complete the campaign in co-op","http://www.playstationtrophies.org/images/trophies/2303/026.jpg"],
+    ["South Park: The Stick of Truth","More Popular Than John Lennon - Everyone in South Park is your friend.","http://www.playstationtrophies.org/images/trophies/1314/34F.jpg"],
+    ["Spec ops: The Line","Friendly Fire - Show Mercy","http://www.playstationtrophies.org/images/trophies/613/111.jpg"],
+    ["Sportsfriends","Musicfriends - J.S. Joust - Start a game with the secret Sportsfriends music option","http://www.playstationtrophies.org/images/trophies/2715/0f1.jpg"],
+    ["Tales from Space: Mutant Blobs Attack","Blob Friends Forever - Collect all Blob Friends in the game","http://www.playstationtrophies.org/images/trophies/1401/13.jpg"],
+    ["Tekken Tag Tournament 2","The Best of Friends - You pulled off 3 partner-specific Tag Throws.","http://www.playstationtrophies.org/images/trophies/756/549.jpg"],
+    ["The Evil Within","My Best Friend - Completely upgrade one weapon.","http://www.playstationtrophies.org/images/trophies/3107/e99.jpg"],
+    ["The Last of Us","BFFs - All optional conversations found in Left Behind","http://www.playstationtrophies.org/images/trophies/1317/c81.jpg"],
+    ["The Walking Dead","Reunited - Found an old friend.","http://www.playstationtrophies.org/images/trophies/1398/49.jpg"],
+    ["The Walking Dead - Season 2","Old Friends - Made it to the ski lodge.","http://www.playstationtrophies.org/images/trophies/2352/14.jpg"]
+];
+
+var irvineList = [
+    ["Back to the Future: The Game","Back In Time - Traveled back in time to rescue Doc.","http://www.playstationtrophies.org/images/trophies/591/02.jpg"],
+    ["Bioshock 2","Grand Daddy - Defeated 3 Big Daddies without dying during the fight.","http://www.playstationtrophies.org/images/trophies/309/28.jpg"],
+    ["Brink","Not over till the fat lady sings! - Take down an enemy with gunfire while knocked down","http://www.playstationtrophies.org/images/trophies/356/14.jpg"],
+    ["Call of Duty Classic","War Hero - Complete the game on Veteran difficulty","http://www.playstationtrophies.org/images/trophies/277/31.jpg"],
+    ["Call of Duty: World at War ","For the Motherland - Complete 'Heart of the Reich' on Veteran difficulty. (Solo only)","http://www.playstationtrophies.org/images/trophies/41/014.jpg"],
+    ["Dead Rising 2","Zombie Genocide Master - Kill 72,000 zombies","http://www.playstationtrophies.org/images/trophies/325/04.jpg"],
+    ["Dead Space","There's Always Peng - Find the Peng Treasure","http://www.playstationtrophies.org/images/trophies/26/047.jpg"],
+    ["Duke Nukem Forever","Balls of Steel - Earn a 1,000,000 pinball score in SP","http://www.playstationtrophies.org/images/trophies/730/30.jpg"],
+    ["EA Sports UFC","It’s Showtime! - KO an opponent via cage kick","http://www.playstationtrophies.org/images/trophies/2094/b3c.jpg"],
+    ["Eat Lead: The Return of Matt Hazard","Pure Energy - Kill 50 enemies with the Energy Pistol. 'Blaster? I hardly know 'er!'","http://www.playstationtrophies.org/images/trophies/93/042.jpg"],
+    ["Far Cry 3","Say Hi to the Internet - Find the lost Hollywood star.","http://www.playstationtrophies.org/images/trophies/922/00F.jpg"],
+    ["FIFA 14","No Goal For You! - Perform a Diving Header Clearance","http://www.playstationtrophies.org/images/trophies/1854/EA4.jpg"],
+    ["FIFA Street","Street Legend - Defeat Messi in a street challenge game","http://www.playstationtrophies.org/images/trophies/1152/396.jpg"],
+    ["Guacamelee","That was Hard Mode? - Defeat the game on Hard mode","http://www.playstationtrophies.org/images/trophies/1568/0A3.jpg"],
+    ["Hotline Miami","Get A Life - Get A+ on all the chapters","http://www.playstationtrophies.org/images/trophies/1923/CBA.jpg"],
+    ["Jak and Daxter: The Precursor Legacy HD (Jak 1 HD)","The Super Orberator - Collect 2000 Precursor Orbs","http://www.playstationtrophies.org/images/trophies/1217/992.jpg"],
+    ["Jetpack Joyride","Romeo Alpha Delta - Fly over 5kms","http://www.playstationtrophies.org/images/trophies/1819/C8B.jpg"],
+    ["LEGO Harry Potter: Years 1-4","Quiet Please! - Turn the sound and music down to 0 in the options menu whilst in the library","http://www.playstationtrophies.org/images/trophies/331/33.jpg"],
+    ["LEGO Marvel Super Heroes","Avengers Assembled - Collect all Avengers characters in the game (Single Player)","http://www.playstationtrophies.org/images/trophies/1875/E0F.jpg"],
+    ["LittleBigPlanet 2","Aces in Spades - Ace 10 different Story levels in a row","http://www.playstationtrophies.org/images/trophies/533/09.jpg"],
+    ["Mirror's Edge","Aaaand Safe! - String together the following: wallrun, jump, coil (over obstacle), skill roll","http://www.playstationtrophies.org/images/trophies/43/035.jpg"],
+    ["NCIS","Hey, I'm a hacker - Complete first database search","http://www.playstationtrophies.org/images/trophies/1253/03.jpg"],
+    ["Need for Speed: Most Wanted","Fast Forward - Trigger a speed camera at over 200mph (321.97km/h)","http://www.playstationtrophies.org/images/trophies/1579/EB1.jpg"],
+    ["PlayStation All-Stars Battle Royale","Mr. Bubbles - Complete Arcade Mode with Big Daddy","http://www.playstationtrophies.org/images/trophies/1308/CC2.jpg"],
+    ["Prison Break","Invisible - Complete every chapter without being seen.","http://www.playstationtrophies.org/images/trophies/403/43.jpg"],
+    ["Saints Row IV","Zoo Keeper - Kill 25 Wardens.","http://www.playstationtrophies.org/images/trophies/1971/7E3.jpg"],
+    ["Sniper Elite V2","Deadeye - Snipe an enemy through his eye","http://www.playstationtrophies.org/images/trophies/988/360.jpg"],
+    ["The Cave","Win-win-win-win-win-win-win - Everyone reached the bottom.","http://www.playstationtrophies.org/images/trophies/1554/EC2.jpg"],
+    ["The Saboteur","Trick or Treat - You stealth killed a Nazi General while disguised.","http://www.playstationtrophies.org/images/trophies/298/43.jpg"],
+    ["X-Men Origins: Wolverine","Found! - You found a mysterious hatch!","http://www.playstationtrophies.org/images/trophies/113/039.jpg"]
 ];
 
 var labartuList = [

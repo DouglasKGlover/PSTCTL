@@ -45,11 +45,11 @@ for(var i in window[thisList]){
         "<input type='checkbox' class='checkbox'/>"+
         "</div>"+
         "<div class='col-xs-1 trophy-icon'>"+
-        "<img src='"+ window[thisList][i][2] +"' alt='Trophy Icon'/>"+
+        "<img src='"+ window[thisList][i][0] +"' alt='Trophy Icon'/>"+
         "</div>"+
         "<div class='col-sm-10 col-xs-12'>"+
-        "<h2>"+ window[thisList][i][0] +"</h2>"+
-        "<p>"+ window[thisList][i][1] +"</p>"+
+        "<h2>"+ window[thisList][i][1] +"</h2>"+
+        "<p>"+ window[thisList][i][2] +"</p>"+
         "</div>"+
         "</div>"+
     "");

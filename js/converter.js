@@ -27,6 +27,7 @@ $(document).ready(function() {
         var text = $("#input").val();
         var eachLine = text.split("\n");
         var counter = "1";
+        $("#conversion").html("");
 
         for(var i in eachLine){
             if(counter==5){counter=1}
@@ -36,7 +37,7 @@ $(document).ready(function() {
             if(counter==4) { /* Do Nothing */ }
             counter++;
         }
-        
+
         var completedConversion = $("#conversion").text();
         var result = completedConversion.substring(0, completedConversion.length-2);
         $("#conversion").html(result);

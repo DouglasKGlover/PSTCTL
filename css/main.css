@@ -310,6 +310,7 @@ p{ margin: 0; }
 a, a:hover{ color: #333; }
 
 .modal-body{ text-align: left; }
+.modal-footer{ text-align: center; }
 
 .header{ position: fixed; top: 0; width: 100%; z-index: 10; font-weight: bold; }
 .header .col-xs-6, .header .row{ padding: 0; }
@@ -319,6 +320,8 @@ a, a:hover{ color: #333; }
 .trophy-count-container h2{ margin: 15px 0; }
 .navigation{ text-align: center; }
 #hide-collected{ max-width: 100%; font-weight: bold; }
+#backup-container{ width: 50%; min-width: 200px; margin: 0 auto 10px auto; }
+.text-below{ text-align: center; }
 
 .trophy-icon{ min-width: 64px; }
 .collected{ background: lightgreen; }

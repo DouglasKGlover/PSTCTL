@@ -34,6 +34,8 @@
                 <br/><br/><br/>
             </div>
 
+            <div id="backup-container"><button id="backup" class="form-control">Backup &amp; Restore</button></div>
+
             <a href="../christmas">
                 <div class="row list-item" id="christmas">
                     <div class="col-xs-1 trophy-icon">
@@ -333,7 +335,33 @@ Click "Save Progress" to save before getting your sign up code!
             </div>
         </div>
 
+        <div class="modal fade" id="cookies-backup">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title">Cookies Backup</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="restore">
+                            <textarea class="form-control"></textarea> <br/> <button class="form-control">Restore</button>
+                        </div>
+                        <br/>
+                        <p class="text-below"></p>
+<pre id="cookies-backup-content">
+You've not saved any progress on any lists...
+No need to backup no data!
+</pre>
+                    </div>
+                    <div class="modal-footer">
+                        Save this text as-is for backing up or transferring your progress!
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script src="../../js/plugins.js"></script>
+        <script src="../../js/lists.js"></script>
         <script src="../../js/main.js"></script>
 
         <!-- Google Analytics -->

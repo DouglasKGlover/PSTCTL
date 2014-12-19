@@ -2,7 +2,7 @@ var gamesList = [];
 for(var i in listList){
     var currentList = listList[i]+"List";
     for(var j in window[currentList]){
-        gamesList.push(window[currentList][j][0]);
+        gamesList.push(window[currentList][j][1]);
     }
 }
 

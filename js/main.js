@@ -112,6 +112,12 @@ if(listName == "HOMEPAGE"){
             else if(thisTrophyCount >= 30 && thisTrophyCount < 40){ $("#" + homePageLists[i]).addClass("silver-list"); }
             else if(thisTrophyCount >= 40 && thisTrophyCount < 50){ $("#" + homePageLists[i]).addClass("gold-list"); }
             else if(thisTrophyCount == 50){ $("#" + homePageLists[i]).addClass("platinum-list"); }
+        } else if(homePageLists[i] ==  "christmas"){
+            if(thisTrophyCount < 1){ /* Do nothing */ }
+            else if(thisTrophyCount >= 1 && thisTrophyCount < 5){ $("#" + homePageLists[i]).addClass("bronze-list"); }
+            else if(thisTrophyCount >= 5 && thisTrophyCount < 9){ $("#" + homePageLists[i]).addClass("silver-list"); }
+            else if(thisTrophyCount >= 9 && thisTrophyCount < 12){ $("#" + homePageLists[i]).addClass("gold-list"); }
+            else if(thisTrophyCount == 12){ $("#" + homePageLists[i]).addClass("platinum-list"); }
         } else {
             if(thisTrophyCount < 1){ /* Do nothing */ }
             else if(thisTrophyCount >= 1 && thisTrophyCount < 10){ $("#" + homePageLists[i]).addClass("bronze-list"); }

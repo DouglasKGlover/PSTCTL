@@ -6,6 +6,7 @@ document.write(''+
 	'<li role="presentation"><a href="../customlist2/">Custom Trophy List V2.0</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../apple/">Apple\'s Alternatives</a></li>'+
+	'<li role="presentation"><a href="../ash/">Ash\'s The Good, The Bad and The Odd</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../bread/">Bread\'s Y U No Play These Games</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
@@ -31,9 +32,11 @@ document.write(''+
 	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../sav/">Sav\'s: For the Love of Platinum</a></li>'+
 	'<li role="presentation"><a href="../shadow/">Shadow\'s Box of Variety</a></li>'+
+	'<li role="presentation"><a href="../sylar/">Sylar\'s Super List</a></li>'+
     '<li role="presentation" class="divider"></li>'+
     '<li role="presentation"><a href="../tech/">Tech\'s Turrets Syndrome</a></li>'+
     '<li role="presentation"><a href="../terminator/">Terminator\'s Journey to Salvation</a></li>'+
+    '<li role="presentation"><a href="../the-123-gamer/">The Gamer\'s Favourites</a></li>'+
 	'<li role="presentation"><a href="../tuffmuff/">Tuff\'s Muff Licker List</a></li>'+
     '<li role="presentation" class="divider"></li>'+
     '<li role="presentation"><a href="../vyrastas/">Vy\'s Glow in the Dark Role Playing Mix</a></li>'+

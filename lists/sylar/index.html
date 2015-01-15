@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PST CTL | Sylar's Super List</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script>
+            var listName = "sylar";
+        </script>
+        <script src="../../js/lists.js"></script>
+
+        <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/main.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="../../js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="../../js/vendor/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header">
+            <div class="row">
+                <div class="col-xs-6"><input type="button" class="form-control" value="Save Progress" id="saveProgress"/></div>
+                <div class="col-xs-6"><input type="button" class="form-control" value="Create BBCode" data-toggle="modal" data-target="#bbCode" id="create-signup"/></div>
+            </div>
+        </div>
+        
+        <div class="banner">
+            <img src="http://www.playstationtrophies.org/images/news/cl_banner_sylar.png" class="img-responsive center-block" alt="Sylar's Super List"/>
+        </div>
+
+        <div class="container">
+            <div class="row trophy-count-container">
+                <h2 id="trophies-earned"><span id="trophy-count">0</span>/<span id="trophy-total">0</span> Trophies Earned</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                            Select a Custom List
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <script type="text/javascript" src="../../js/nav.js"></script>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-xs col-sm-6 col-lg-7"></div>
+                <div class="col-xs-12 col-sm-4 col-lg-3">
+                    <input type="button" id="hide-collected" class="form-control" value="Hide collected trophies"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div id="list-container"></div>
+
+        </div>
+
+        <!-- Modals -->
+        <div class="modal fade" id="bbCode">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title">Sign Up BBCode</h4>
+                    </div>
+                    <div class="modal-body">
+<pre id="bbCodeContent">
+You haven't saved any trophies!
+Click "Save Progress" to save before getting your sign up code!
+</pre>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="http://www.playstationtrophies.org/forum/custom-trophy-lists/237518-staff-custom-list-sign-up-thread.html" target="_blank">Don't forget to post your PSN ID!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../js/plugins.js"></script>
+        <script src="../../js/main.js"></script>
+
+        <!-- Google Analytics -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-48989090-3');ga('send','pageview');
+            $("#saveProgress").click(ga('send', 'event', 'Page Actions', 'Progress Saved'));
+        </script>
+    </body>
+</html>

@@ -112,6 +112,12 @@ if(listName == "HOMEPAGE"){
             else if(thisTrophyCount >= 30 && thisTrophyCount < 40){ $("#" + homePageLists[i]).addClass("silver-list"); }
             else if(thisTrophyCount >= 40 && thisTrophyCount < 50){ $("#" + homePageLists[i]).addClass("gold-list"); }
             else if(thisTrophyCount == 50){ $("#" + homePageLists[i]).addClass("platinum-list"); }
+        } else if(homePageLists[i] ==  "christmas"){
+            if(thisTrophyCount < 1){ /* Do nothing */ }
+            else if(thisTrophyCount >= 1 && thisTrophyCount < 5){ $("#" + homePageLists[i]).addClass("bronze-list"); }
+            else if(thisTrophyCount >= 5 && thisTrophyCount < 9){ $("#" + homePageLists[i]).addClass("silver-list"); }
+            else if(thisTrophyCount >= 9 && thisTrophyCount < 12){ $("#" + homePageLists[i]).addClass("gold-list"); }
+            else if(thisTrophyCount == 12){ $("#" + homePageLists[i]).addClass("platinum-list"); }
         } else {
             if(thisTrophyCount < 1){ /* Do nothing */ }
             else if(thisTrophyCount >= 1 && thisTrophyCount < 10){ $("#" + homePageLists[i]).addClass("bronze-list"); }
@@ -183,10 +189,6 @@ if(trophiesInList==30){
 
 $(document).ready(function(){
 
-    // Delete legacy cookies by overwriting them
-    // Implemented July 30th - remove after 3 months
-    document.cookie=listName+"ListProd=;";
-
     // When user clicks "Save Progress"
     $("#saveProgress").click(function(){
         var CookieDate = new Date;
@@ -218,6 +220,38 @@ $(document).ready(function(){
     // When user clicks on BBCode section, select the text contained within the <pre>
     $("#bbCodeContent").click(function(){
         selectText("bbCodeContent");
+    });
+
+    // When user clicks on "Cookies" button, show modal with copy&paste cookie code (Home Page)
+    $("#backup").click(function(){
+        $("#cookies-backup-content").html("");
+        $("#cookies-backup .modal-footer").html("Here to update your progress with a backup? Paste your backup into the text box above, and click \"Restore\"!");
+        for(var i in listList){
+            if(getCookie(listList[i]+"ListProd2") != ""){
+                $("#cookies-backup-content").append(listList[i]+"ListProd2;"+getCookie(listList[i]+"ListProd2")+";");
+                $("#cookies-backup .text-below").html("Save the text below as-is for backing up or transferring your progress!");
+                $("#cookies-backup .modal-footer").html("Save the text above as-is for backing up or transferring your progress!");
+            }
+        }
+        var completedBackup = $("#cookies-backup-content").text();
+        var result = completedBackup.substring(0, completedBackup.length-1);
+        $("#cookies-backup-content").html(result);
+        $("#cookies-backup").modal('show');
+    });
+    $("#cookies-backup-content").click(function(){
+        selectText("cookies-backup-content");
+    });
+
+    // Restore cookies from backup
+    $("#restore button").click(function(){
+        var restorationArray = $("#restore textarea").val().split(";");
+        while (restorationArray.length > 0) {
+            var chunk = restorationArray.splice(0,2)
+            var CookieDate = new Date;
+            CookieDate.setFullYear(CookieDate.getFullYear( ) +10);
+            document.cookie=chunk[0]+"="+chunk[1]+";expires="+CookieDate.toGMTString()+"; path=/";
+            location.reload();
+        }
     });
 
 });

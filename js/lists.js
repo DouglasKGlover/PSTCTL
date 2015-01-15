@@ -1,4 +1,4 @@
-var listList = ["apple", "christmas", "bread", "dafaztfingaz", "fletch", "football", "germain", "glenn", "harry", "irvine", "labartu", "mendel", "olsen", "sav", "shadow", "tech", "terminator", "tuffmuff", "vyrastas", "woody"];
+var listList = ["custom-list-1","custom-list-2","christmas","apple","bread","dafaztfingaz","fletch","football","glenn","germain","harry","irvine","labartu","mendel","olsen","phantom","sav","shadow","terminator","tech","tuffmuff","vyrastas","woody"];
 
 var christmasList = [
     ["http://www.playstationtrophies.org/images/trophies/1223/BD5.jpg", "Devil May Cry HD", "Cold Turkey - Fight Griffon a second time and prevail"],

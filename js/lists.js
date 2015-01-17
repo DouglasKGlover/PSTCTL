@@ -1,4 +1,4 @@
-var listList = ["custom-list-1","custom-list-2","christmas","apple","bread","dafaztfingaz","fletch","football","glenn","germain","harry","irvine","labartu","mendel","olsen","phantom","sav","shadow","terminator","tech","tuffmuff","vyrastas","woody"];
+var listList = ["custom-list-1","custom-list-2","christmas","apple","ash","bread","dafaztfingaz","fletch","football","gamer","glenn","germain","harry","irvine","labartu","mendel","olsen","phantom","sav","shadow","sylar","terminator","tech","tuffmuff","vyrastas","woody"];
 
 var christmasList = [
     ["http://www.playstationtrophies.org/images/trophies/1223/BD5.jpg", "Devil May Cry HD", "Cold Turkey - Fight Griffon a second time and prevail"],
@@ -13,6 +13,39 @@ var christmasList = [
     ["http://www.playstationtrophies.org/images/trophies/546/10.jpg", "Resistance 3", "Slaybells - Make Santa and his reindeer fly"],
     ["http://www.playstationtrophies.org/images/trophies/1996/3EE.jpg", "The Wolf Among Us", "A Light Snowfall - Completed Episode 1: \"Faith\""],
     ["http://www.playstationtrophies.org/images/trophies/1758/944.jpg", "Toejam & Earl", "Even Adults Like Presents - [TJ&E] Snag some goodies from Santa."]
+];
+
+var gamerList = [
+    ["http://www.playstationtrophies.org/images/trophies/398/44.jpg", "Batman: Arkham City", "Gotham Base Jumper - Jump off the tallest building in Arkham City and glide for 1 minute without touching the ground."],
+    ["http://www.playstationtrophies.org/images/trophies/23/53.jpg", "Bioshock", "I Chose the Impossible - Complete the game on Survivor difficulty without using a Vita-chamber"],
+    ["http://www.playstationtrophies.org/images/trophies/700/97D.jpg", "Bioshock Infinite", "Saw the Elephant - Completed the game on Normal difficulty or above"],
+    ["http://www.playstationtrophies.org/images/trophies/39/50.jpg", "Borderlands ", "Reckless Abandon - Killed 15 enemies with the Berserker's action skill"],
+    ["http://www.playstationtrophies.org/images/trophies/1145/F11.jpg", "Borderlands 2", "Feels Like The First Time - Opened the chest at the bus stop in Fyrestone"],
+    ["http://www.playstationtrophies.org/images/trophies/699/10.jpg", "Costume Quest", "Mask-O'-Raider - Complete all Quests in the game."],
+    ["http://www.playstationtrophies.org/images/trophies/70/007.jpg", "Fallout 3", "Tranquility Lane - Completed 'Tranquility Lane'"],
+    ["http://www.playstationtrophies.org/images/trophies/343/32.jpg", "Fallout New Vegas ", "Ain't That a Kick in the Head - Completed Ain't That a Kick in the Head."],
+    ["http://www.playstationtrophies.org/images/trophies/687/01f.jpg", "Grand Theft Auto V", "The Government Gimps - You recovered sensitive information from a highly defended federal building."],
+    ["http://www.playstationtrophies.org/images/trophies/1772/010.jpg", "Hitman: Blood Money", "5 Normal Silent Assassins - 5 Silent Assassin ratings awarded on the Normal difficulty."],
+    ["http://www.playstationtrophies.org/images/trophies/1939/058.jpg", "Kingdom Hearts Final Mix HD", "End of the World - Seal the keyhole in Hollow Bastion"],
+    ["http://www.playstationtrophies.org/images/trophies/358/40.jpg", "L.A. Noire", "Auto Fanatic - Drive every vehicle in the city."],
+    ["http://www.playstationtrophies.org/images/trophies/351/38.jpg", "Mafia 2", "Hard to Kill - The police want you dead. Survive for 10 minutes!"],
+    ["http://www.playstationtrophies.org/images/trophies/1743/3CA.jpg", "Mass Effect", "Honorarium of Corporate Service - Complete Noveria"],
+    ["http://www.playstationtrophies.org/images/trophies/703/45.jpg", "Mass Effect 2", "Power Gamer - Reach Level 30 with one character"],
+    ["http://www.playstationtrophies.org/images/trophies/845/039.jpg", "Mass Effect 3 ", "Paramour - Establish or rekindle a romantic relationship."],
+    ["http://www.playstationtrophies.org/images/trophies/772/46.jpg", "Medal of Honor: Frontline", "ET Goin' Home - Find the UFO in 'On Track'"],
+    ["http://www.playstationtrophies.org/images/trophies/1053/16.jpg", "Metal Gear Solid 2: Sons of Liberty HD", "Johnny on the Spot - Hear Johnny's bowel noises in two locations"],
+    ["http://www.playstationtrophies.org/images/trophies/1054/42.jpg", "Metal Gear Solid 3: Sanke Eater", "You Snooze, You Lose - Sneak up on The End and hold him up"],
+    ["http://www.playstationtrophies.org/images/trophies/515/B9F.jpg", "Metal Gear Solid 4: Guns of the Patriots", "Old Sun - Cleared Act 5 (Outer Haven)."],
+    ["http://www.playstationtrophies.org/images/trophies/902/629.jpg", "Oddworld: Abe's Oddysee - New 'n' Tasty", "Odd Messiah - Rescue every Mudokon while finishing New 'n' Tasty in Hard mode"],
+    ["http://www.playstationtrophies.org/images/trophies/1378/892.jpg", "Sleeping Dogs", "Pure Gold - Achieve 30 Gold Stat Awards."],
+    ["http://www.playstationtrophies.org/images/trophies/1314/A96.jpg", "South Park: The Stick of Truth", "Inside Joke - While inside Mr. Slave, you summoned Mr. Slave."],
+    ["http://www.playstationtrophies.org/images/trophies/1554/676.jpg", "The Cave", "Hazardous Work Environment - Slipped, where wet."],
+    ["http://www.playstationtrophies.org/images/trophies/826/18.jpg", "The Elder Scrolls V: Skyrim", "One with the Shadows - Returned the Thieves Guild to its former glory"],
+    ["http://www.playstationtrophies.org/images/trophies/298/15.jpg", "The Saboteur", "Saint Honoré - You spent 75,000 contraband."],
+    ["http://www.playstationtrophies.org/images/trophies/468/25.jpg", "Toy Story 3", "Give Me My Gold Back - Defeat Mayor Hamm in the Woody's Roundup boss battle"],
+    ["http://www.playstationtrophies.org/images/trophies/1588/eaa.jpg", "Watch Dogs", "Disk Space Full - Unlock every song with the SongSneak app"],
+    ["http://www.playstationtrophies.org/images/trophies/1929/490.jpg", "WWE 2K14", "Lord of Darkness - Defend the Streak - Defeat 50 Superstars in a single match."],
+    ["http://www.playstationtrophies.org/images/trophies/2786/ca2.jpg", "WWE 2K15", "The Deadman defeated - WWE Universe - Defeat Undertaker at WrestleMania using a custom Superstar."]
 ];
 
 var appleList = [
@@ -46,6 +79,39 @@ var appleList = [
     ["http://www.playstationtrophies.org/images/trophies/1796/CA1.jpg", "Virtue's Last Reward", "A Certain Point of View - Caught a glimpse of another time."],
     ["http://www.playstationtrophies.org/images/trophies/1056/FA9.jpg", "Zone of the Enders HD", "Benedict Arnold - Defeat 10 enemies while controlling the Raptor"],
     ["http://www.playstationtrophies.org/images/trophies/1057/2DC.jpg", "Zone of the Enders: The 2nd Runner HD", "Is It Hot In Here? - Reveal Ken's alternate outfit"]
+];
+
+var ashList = [
+    ["http://www.playstationtrophies.org/images/trophies/309/17.jpg", "BioShock 2", "9-Irony - Paid your respects to the founder of Rapture."],
+    ["http://www.playstationtrophies.org/images/trophies/1745/532.jpg ", "Brothers: A Tale of Two Sons", "Whale Song - You practised singing."],
+    ["http://www.playstationtrophies.org/images/trophies/41/025.jpg ", "Call of Duty: World at War", "Gunslinger - Assassinate General Amsel with a pistol shot. (Solo only)"],
+    ["http://www.playstationtrophies.org/images/trophies/70/022.jpg ", "Fallout 3", "Oasis - Completed 'Oasis'"],
+    ["http://www.playstationtrophies.org/images/trophies/319/001.jpg", "God of War III ", "I didn't do it...But I wish I did! - Kill the Poseidon Princess"],
+    ["http://www.playstationtrophies.org/images/trophies/33/52.jpg ", "Grand Theft Auto IV: The Lost and Damned", "TLAD: The Lost Boy - Become the leader of The Lost. (The Lost and Damned)"],
+    ["http://www.playstationtrophies.org/images/trophies/1392/30.jpg", "Gravity Rush ", "Gravitational Anomaly - Defeated 8 enemies with one special attack."],
+    ["http://www.playstationtrophies.org/images/trophies/1568/848.jpg", "Guacamelee!", "Cock of the Walk - Defeat an enemy as a chicken"],
+    ["http://www.playstationtrophies.org/images/trophies/321/34.jpg ", "Heavy Rain", "Smart Girl - The Doc - Do not drink the Doc's beverage"],
+    ["http://www.playstationtrophies.org/images/trophies/749/12.jpg ", "ICO", "Shining Sword - Acquire shining sword"],
+    ["http://www.playstationtrophies.org/images/trophies/1241/B23.jpg", "Jak II HD", "Strip Mine, Not Yours - Blow up Strip Mine in Eco Wells"],
+    ["http://www.playstationtrophies.org/images/trophies/1107/DCB.jpg", "LittleBigPlanet Vita", "Arcade Champion - Complete all achievements in all games from The Arcade."],
+    ["http://www.playstationtrophies.org/images/trophies/2578/512.jpg", "Magus", "The Queen is Dead - Defeat the Daemon Queen."],
+    ["http://www.playstationtrophies.org/images/trophies/1743/8F3.jpg", "Mass Effect", "Paramour - Complete any romance subplot"],
+    ["http://www.playstationtrophies.org/images/trophies/593/10.jpg ", "Mortal Kombat", "Finish What You Start! - Perform a Fatality with all playable fighters"],
+    ["http://www.playstationtrophies.org/images/trophies/1010/587.jpg", "Oddworld: Munch's Oddysee HD", "You Snooze, You Lose - Kill a Big Bro Slig in his sleep."],
+    ["http://www.playstationtrophies.org/images/trophies/902/380.jpg", "Oddworld: New 'n' Tasty ", "Still Life - Escape Stockyards and Free Fire Zone without triggering the alarm or dying"],
+    ["http://www.playstationtrophies.org/images/trophies/731/624.jpg", "Oddworld: Stranger's Wrath HD ", "Now there’s two? - Take out Sekto’s personal bodyguards."],
+    ["http://www.playstationtrophies.org/images/trophies/1407/42.jpg", "Plants Vs Zombies (Vita) ", "Sproing! Sproing! - Complete Pogo Party without using Tall-Nuts or Magnet-shrooms."],
+    ["http://www.playstationtrophies.org/images/trophies/610/14.jpg ", "Portal 2", "The Part Where He Kills You - This is that part"],
+    ["http://www.playstationtrophies.org/images/trophies/340/17.jpg ", "Red Dead Redemption", "Strange Things are Afoot - Complete a task for Stranger."],
+    ["http://www.playstationtrophies.org/images/trophies/1061/F54.jpg", "Resident Evil 6", "I Prefer Them Alive - Rescue two female survivors at the cathedral."],
+    ["http://www.playstationtrophies.org/images/trophies/546/18.jpg", "Resistance 3", "BARF! - Make 6 Wardens puke at the same time in the prison"],
+    ["http://www.playstationtrophies.org/images/trophies/874/03.jpg ", "Shadow of the Colossus", "The Sloth - Defeat 2nd Colossus"],
+    ["http://www.playstationtrophies.org/images/trophies/2404/E02.jpg", "Sound Shapes ", "Death Mode: Cities - Complete the Death Mode level."],
+    ["http://www.playstationtrophies.org/images/trophies/2671/efa.jpg", "Stick it to the Man", "Food for Thought - Read the mind of an eaten fish"],
+    ["http://www.playstationtrophies.org/images/trophies/1674/314.jpg", "Tearaway", "Free Hug - Throw a Gopher at a Scrap"],
+    ["http://www.playstationtrophies.org/images/trophies/2670/243.jpg", "The Last of Us: Left Behind", "Don’t Go - Survivor - Finish Left Behind on Survivor"],
+    ["http://www.playstationtrophies.org/images/trophies/1947/26C.jpg", "Thomas Was Alone", "Part of the Problem - Bounce on Laura 100 times."],
+    ["http://www.playstationtrophies.org/images/trophies/1092/56.jpg", "Uncharted: Golden Abyss ", "Ruffle My Feathers - Force José Parrot to squawk out 8 unique quips."]
 ];
 
 var breadList = [
@@ -508,6 +574,39 @@ var shadowList = [
     ["http://www.playstationtrophies.org/images/trophies/21/016.jpg", "Wipeout HD [30.43%]", "Thanks for the Memory - Win a Campaign, Racebox or Online race using each HUD style variation."],
     ["http://www.playstationtrophies.org/images/trophies/1350/817.jpg", "XCOM: Enemy Unknown [8.70%]", "As a Scalpel - Earn the \"Excellent\" rating in every performance category on a terror mission."],
     ["http://www.playstationtrophies.org/images/trophies/586/11.jpg", "Yakuza 4 [8.70%]", "Indomitable - Clear Normal Mode without reverting to Easy Mode."]
+];
+
+var sylarList = [
+    ["http://www.playstationtrophies.org/images/trophies/2277/e63.jpg", "Assassin's Creed: Liberation HD", "Machete - Kill 5 guards in 15 seconds using only the Sugarcane Machete (without using the Chain Kill)."],
+    ["http://www.playstationtrophies.org/images/trophies/192/15.jpg", "Batman: Arkham Asylum", "Poisoned Ivy - Defeat the giant Titan Ivy plant"],
+    ["http://www.playstationtrophies.org/images/trophies/398/02.jpg", "Batman: Arkham City", "I'm Batman - Become the Bat"],
+    ["http://www.playstationtrophies.org/images/trophies/2009/9A0.jpg", "Batman: Arkham Origins", "Silent Knight - Complete a predator encounter using only silent takedowns"],
+    ["http://www.playstationtrophies.org/images/trophies/2008/AA8.jpg", "Batman: Arkham Origins Blackgate", "LEAGUE OF SHADOWS - Get a 100 hit combo"],
+    ["http://www.playstationtrophies.org/images/trophies/1145/7E2.jpg", "Borderlands 2", "Dragon Slayer - Completed the mission \"Best Minion Ever\""],
+    ["http://www.playstationtrophies.org/images/trophies/2667/cd5.jpg", "Borderlands: The Pre-Sequel", "No, I'm Athena! - Killed 100 enemies with the Aspis."],
+    ["http://www.playstationtrophies.org/images/trophies/769/ACB.jpg", "Captain America: Super Soldier", "Star Spangled Superhero - 25000 Intel Points collected"],
+    ["http://www.playstationtrophies.org/images/trophies/276/30.jpg", "Darksiders", "Don't Make Me Angry - Collect the Chaos Form Ability"],
+    ["http://www.playstationtrophies.org/images/trophies/1565/8F8.jpg", "Game of Thrones", "Hear me roar - Finish chapter 4"],
+    ["http://www.playstationtrophies.org/images/trophies/1345/2A2.jpg", "God of War: Ascension", "Blind Justice - Use the Eyes of Truth successfully"],
+    ["http://www.playstationtrophies.org/images/trophies/679/14.jpg", "Green Lantern: Rise of the Manhunters", "Emerald Knight - Clear all missions on Emerald Knight difficulty."],
+    ["http://www.playstationtrophies.org/images/trophies/571/04.jpg", "inFamous 2", "With Great Power Comes Greater Power - Unlock and purchase all powers."],
+    ["http://www.playstationtrophies.org/images/trophies/404/47.jpg", "Iron Man 2", "Two Man Army - Defeat the Russian separatists as both Iron Man and War Machine."],
+    ["http://www.playstationtrophies.org/images/trophies/1347/521.jpg", "LEGO Batman 2: DC Super Heroes (PS3)", "Dynamic Duo - Play a level in co-op"],
+    ["http://www.playstationtrophies.org/images/trophies/1511/907.jpg", "LEGO Batman 2: DC Super Heroes (Vita)", "Justice League, Assemble! - Complete The Final Battle."],
+    ["http://www.playstationtrophies.org/images/trophies/1875/78D.jpg", "LEGO Marvel Super Heroes (PS3/PS4)", "Sinister Six - Collect Doc Ock, Sandman, Mysterio, Kraven the Hunter, Electro and Vulture (Single Player)"],
+    ["http://www.playstationtrophies.org/images/trophies/1308/D8C.jpg", "PlayStation All-Stars Battle Royale", "Intergalactic Heroes - Complete Arcade Mode with Ratchet"],
+    ["http://www.playstationtrophies.org/images/trophies/1436/222.jpg", "Ratchet & Clank HD", "These are not the droids you're looking for... - Obtain the Persuader"],
+    ["http://www.playstationtrophies.org/images/trophies/1971/5E0.jpg", "Saints Row IV", "Where's My Cape? - Purchase all Super Power upgrades"],
+    ["http://www.playstationtrophies.org/images/trophies/1378/58B.jpg", "Sleeping Dogs", "Karaoke Superstar - Achieving 90% and above for all songs at the Karaoke Bars in HK."],
+    ["http://www.playstationtrophies.org/images/trophies/978/34.jpg", "Spiderman Edge of Time", "Super-Suited Swinger - Obtain all Alternate Suits"],
+    ["http://www.playstationtrophies.org/images/trophies/397/09.jpg", "Star Wars: The Force Unleashed II", "Padawan - Complete the game on Easy difficulty."],
+    ["http://www.playstationtrophies.org/images/trophies/3247/5a3.jpg", "Tales From The Borderlands", "Welcome to Pandora, Kiddos - Completed Chapter 1 of Episode 1"],
+    ["http://www.playstationtrophies.org/images/trophies/1222/219.jpg", "The Amazing Spider-man", "Peter Parker - Complete the game on human difficulty"],
+    ["http://www.playstationtrophies.org/images/trophies/826/26.jpg", "The Elder Scrolls V: Skyrim", "Hero of the People - Complete 50 Misc Objectives"],
+    ["http://www.playstationtrophies.org/images/trophies/298/26.jpg", "The Saboteur", "Pint and a Shag - You got lucky with Skylar."],
+    ["http://www.playstationtrophies.org/images/trophies/670/07.jpg", "Thor: God of Thunder", "Valorous - Acquired an upgrade."],
+    ["http://www.playstationtrophies.org/images/trophies/1092/55.jpg", "Uncharted: Golden Abyss", "The Collector - Collect first treasure or mystery."],
+    ["http://www.playstationtrophies.org/images/trophies/113/020.jpg", "X-Men Origins: Wolverine", "Mutant Lover - Raised one Mutagen to level 3"]
 ];
 
 var terminatorList = [

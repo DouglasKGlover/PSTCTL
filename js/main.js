@@ -66,6 +66,7 @@ var homePageLists = [
     "custom-list-1",
     "custom-list-2",
     "apple",
+    "ash",
     "bread",
     "dafaztfingaz",
     "fletch",
@@ -80,27 +81,37 @@ var homePageLists = [
     "phantom",
     "sav",
     "shadow",
+    "sylar",
     "tech",
     "terminator",
+    "gamer",
     "tuffmuff",
     "vyrastas",
     "woody"
 ];
 
+// Total across lists (Home Page)
+var totalCount = 0,
+    totalTotal = 0;
+
 // Logic for home page
 if(listName == "HOMEPAGE"){
+
     // Build out each list
     for(var i in homePageLists){
 
+        totalTotal++;
+
         // Variables
-        var thisList = getCookie(homePageLists[i] + "ListProd2");
-        var thisListSplit = thisList.split(",");
-        var thisTrophyCount = 0;
+        var thisList = getCookie(homePageLists[i] + "ListProd2"),
+            thisListSplit = thisList.split(","),
+            thisTrophyCount = 0;
 
         // Increment Trophies Collected count per list
         for(var x in thisListSplit){
             if(thisListSplit[x] == "true"){
                 thisTrophyCount++;
+                totalCount++;
             }
         };
         $("#" + homePageLists[i]).find(".list-trophy-count").html(thisTrophyCount);
@@ -126,6 +137,13 @@ if(listName == "HOMEPAGE"){
             else if(thisTrophyCount == 30){ $("#" + homePageLists[i]).addClass("platinum-list"); }
         }
     }
+    var totalLists = totalTotal;
+    totalTotal-=3;
+    totalTotal*=30;
+    totalTotal+=112;
+    $("#home-count").html(totalCount);
+    $("#home-total").html(totalTotal);
+    $("#home-lists").html(totalLists);
 }
 
 // Check if any trophies obtained

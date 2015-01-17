@@ -34,7 +34,7 @@ var gamerList = [
     ["http://www.playstationtrophies.org/images/trophies/845/039.jpg", "Mass Effect 3 ", "Paramour - Establish or rekindle a romantic relationship."],
     ["http://www.playstationtrophies.org/images/trophies/772/46.jpg", "Medal of Honor: Frontline", "ET Goin' Home - Find the UFO in 'On Track'"],
     ["http://www.playstationtrophies.org/images/trophies/1053/16.jpg", "Metal Gear Solid 2: Sons of Liberty HD", "Johnny on the Spot - Hear Johnny's bowel noises in two locations"],
-    ["http://www.playstationtrophies.org/images/trophies/1054/42.jpg", "Metal Gear Solid 3: Sanke Eater", "You Snooze, You Lose - Sneak up on The End and hold him up"],
+    ["http://www.playstationtrophies.org/images/trophies/1054/42.jpg", "Metal Gear Solid 3: Snake Eater", "You Snooze, You Lose - Sneak up on The End and hold him up"],
     ["http://www.playstationtrophies.org/images/trophies/515/B9F.jpg", "Metal Gear Solid 4: Guns of the Patriots", "Old Sun - Cleared Act 5 (Outer Haven)."],
     ["http://www.playstationtrophies.org/images/trophies/902/629.jpg", "Oddworld: Abe's Oddysee - New 'n' Tasty", "Odd Messiah - Rescue every Mudokon while finishing New 'n' Tasty in Hard mode"],
     ["http://www.playstationtrophies.org/images/trophies/1378/892.jpg", "Sleeping Dogs", "Pure Gold - Achieve 30 Gold Stat Awards."],

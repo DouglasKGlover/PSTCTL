@@ -323,6 +323,9 @@ a, a:hover{ color: #333; }
 #backup-container{ width: 50%; min-width: 200px; margin: 0 auto 10px auto; }
 .text-below{ text-align: center; }
 
+.to-top{ color: #01449D; font-weight: bold; cursor: pointer; position: fixed; bottom: 1%; right: 1%; padding: 10px; }
+.to-top:hover{ color: #015eff; }
+
 .trophy-icon{ min-width: 64px; }
 .collected{ background: lightgreen; }
 .row{ padding: 5px; }

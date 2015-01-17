@@ -207,6 +207,11 @@ if(trophiesInList==30){
 
 $(document).ready(function(){
 
+    // Scroll to Top onclick
+    $(".to-top").click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 500);
+    });
+
     // When user clicks "Save Progress"
     $("#saveProgress").click(function(){
         var CookieDate = new Date;

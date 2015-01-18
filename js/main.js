@@ -42,12 +42,15 @@ for(var i in window[thisList]){
     $("#list-container").append(""+
         "<div class='row list-item' id='"+ listName +"-"+ thisCounter +"'>"+
         "<div class='col-xs-1'>"+
-        "<input type='checkbox' class='checkbox'/>"+
+        "<input type='checkbox' class='own-game checkbox'/>"+
+        "</div>"+
+        "<div class='col-xs-1'>"+
+        "<input type='checkbox' class='have-trophy checkbox'/>"+
         "</div>"+
         "<div class='col-xs-1 trophy-icon'>"+
         "<img src='"+ window[thisList][i][0] +"' alt='Trophy Icon'/>"+
         "</div>"+
-        "<div class='col-sm-10 col-xs-12'>"+
+        "<div class='col-sm-9 col-xs-12'>"+
         "<h2>"+ window[thisList][i][1] +"</h2>"+
         "<p>"+ window[thisList][i][2] +"</p>"+
         "</div>"+
@@ -57,7 +60,7 @@ for(var i in window[thisList]){
 }
 
 // Variable has to instantiate AFTER trophy list has been built (above)
-var trophiesInList = $('input[type=checkbox]').size();
+var trophiesInList = $('.have-trophy').size();
 
 // List of lists for home page
 // NOTE: Replace w/ lists.js implementation?
@@ -168,7 +171,7 @@ for(var i = 0; i < (trophiesInList+1); i++){
     if(theList[i]=="true"){
         // Style collected trophies in the list
         $("#"+ listName +"-"+(i+1)).addClass("collected");
-        $("#"+ listName +"-"+(i+1)+" .checkbox").prop('checked', true);
+        $("#"+ listName +"-"+(i+1)+" .have-trophy").prop('checked', true);
 
         // List collected trophies in BBCode
         $("#bbCodeContent").append(""+
@@ -218,7 +221,7 @@ $(document).ready(function(){
         CookieDate.setFullYear(CookieDate.getFullYear( ) +10);
         $(".collected").show();
         var sList = "";
-        $('input[type=checkbox]').each(function () {
+        $('.have-trophy').each(function () {
             sList += (this.checked ? "true," : "false,");
         });
         document.cookie=listName+"ListProd2="+sList.split(",")+";expires="+CookieDate.toGMTString()+"; path=/";

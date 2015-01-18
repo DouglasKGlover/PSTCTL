@@ -1,6 +1,8 @@
 // Global variables
 var the = getCookie(listName + "ListProd2");
 var theList = the.split(",");
+var currentGamesOwned = getCookie("gamesOwnedList");
+var currentGamesOwnedList = currentGamesOwned.split(",");
 var trophyCount = 0;
 var anyTrophies = 0;
 var hidden = "false";
@@ -38,6 +40,12 @@ function selectText(element) {
 }
 
 // Create divs w/ trophy content
+$("#list-container").append("" +
+    "<div class=\"row list-item\" id=\"legend\">" +
+    "<div class=\"col-xs-1\">Game</div>" +
+    "<div class=\"col-xs-1\">Trophy</div>" +
+    "</div>" +
+"");
 for(var i in window[thisList]){
     $("#list-container").append(""+
         "<div class='row list-item' id='"+ listName +"-"+ thisCounter +"'>"+
@@ -187,6 +195,15 @@ if(anyTrophies > 0){
     "");
 }
 
+// Color and check games that the user owns
+$("h2").each(function(){
+    var thisGameName = $(this).html().replace("&amp;", "&");
+    if($.inArray(thisGameName, currentGamesOwnedList) !== -1){
+        $(this).closest(".list-item").addClass("owned");
+        $(this).closest(".list-item").find(".own-game").prop('checked', true);
+    }
+});
+
 // Get total trophies earned for current list, and add the color code class to the counter
 $("#trophy-count").html(trophyCount);
 $("#trophy-total").html(trophiesInList);
@@ -220,11 +237,28 @@ $(document).ready(function(){
         var CookieDate = new Date;
         CookieDate.setFullYear(CookieDate.getFullYear( ) +10);
         $(".collected").show();
+
+        // Cookie for trophies earned
         var sList = "";
         $('.have-trophy').each(function () {
             sList += (this.checked ? "true," : "false,");
         });
         document.cookie=listName+"ListProd2="+sList.split(",")+";expires="+CookieDate.toGMTString()+"; path=/";
+
+        // Cookie for games owned
+        var oList = "";
+        var gamesOwnedCookie = getCookie("gamesOwnedList").split(",");
+        $('.own-game').each(function () {
+            if($(this).is(":checked")){
+                var thisGameName = $(this).closest(".list-item").find("h2").html().replace("&amp;", "&");
+                if($.inArray(thisGameName, gamesOwnedCookie) !== -1){ /* Do nothing */ }
+                else { oList += (thisGameName + ","); }
+            }
+        });
+        var newGamesOwnedList = gamesOwnedCookie + oList;
+        document.cookie="gamesOwnedList="+newGamesOwnedList.split(",")+";expires="+CookieDate.toGMTString()+"; path=/";
+
+        // Reload to re-style page
         location.reload();
     });
 
@@ -246,6 +280,11 @@ $(document).ready(function(){
     // When user clicks on BBCode section, select the text contained within the <pre>
     $("#bbCodeContent").click(function(){
         selectText("bbCodeContent");
+    });
+
+    // When user clicks that they own the game
+    $(".own-game").click(function(e){
+        console.log($(this).closest(".list-item").find("h2").html().replace("&amp;", "&"));
     });
 
     // When user clicks on "Cookies" button, show modal with copy&paste cookie code (Home Page)

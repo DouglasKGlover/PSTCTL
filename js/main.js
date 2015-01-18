@@ -8,6 +8,7 @@ var anyTrophies = 0;
 var hidden = "false";
 var thisList = listName+"List";
 var thisCounter = 1;
+var gamesOwnedThisList = 0;
 
 // Function for getting a cookie
 function getCookie(cname) {
@@ -199,10 +200,12 @@ if(anyTrophies > 0){
 $("h2").each(function(){
     var thisGameName = $(this).html().replace("&amp;", "&");
     if($.inArray(thisGameName, currentGamesOwnedList) !== -1){
+        gamesOwnedThisList++;
         $(this).closest(".list-item").addClass("owned");
         $(this).closest(".list-item").find(".own-game").prop('checked', true);
     }
 });
+$("#game-count").html(gamesOwnedThisList);
 
 // Get total trophies earned for current list, and add the color code class to the counter
 $("#trophy-count").html(trophyCount);

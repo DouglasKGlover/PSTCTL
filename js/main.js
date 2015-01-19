@@ -285,9 +285,9 @@ $(document).ready(function(){
         selectText("bbCodeContent");
     });
 
-    // When user clicks that they own the game
-    $(".own-game").click(function(e){
-        console.log($(this).closest(".list-item").find("h2").html().replace("&amp;", "&"));
+    // When user clicks a trophy earned, we can assume they own the game
+    $(".have-trophy").click(function(){
+        $(this).closest(".list-item").find(".own-game").prop("checked", true);
     });
 
     // When user clicks on "Cookies" button, show modal with copy&paste cookie code (Home Page)

@@ -360,6 +360,10 @@ a, a:hover{ color: #333; }
     .col-xs-9{ padding-left: 30px; }
 }
 
+@media all and (max-width: 600px){
+    #legend{ display: none; }
+}
+
 @media all and (max-width: 480px){
     .checkbox{ top: 0; }
 }

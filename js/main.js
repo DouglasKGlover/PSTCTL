@@ -1,5 +1,6 @@
 // Global variables
 var the = getCookie(listName + "ListProd2");
+if(listName == "customlist1"){ the = getCookie("custom-list-1ListProd2"); } else if(listName == "customlist2"){ the = getCookie("custom-list-2ListProd2"); }
 var theList = the.split(",");
 var currentGamesOwned = getCookie("gamesOwnedList");
 var currentGamesOwnedList = currentGamesOwned.split(",");
@@ -246,6 +247,7 @@ $(document).ready(function(){
         $('.have-trophy').each(function () {
             sList += (this.checked ? "true," : "false,");
         });
+        if(listName == "customlist1"){ listName = "custom-list-1"; } else if(listName == "customlist2"){ listName = "custom-list-2"; }
         document.cookie=listName+"ListProd2="+sList.split(",")+";expires="+CookieDate.toGMTString()+"; path=/";
 
         // Cookie for games owned

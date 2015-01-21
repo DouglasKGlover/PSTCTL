@@ -322,13 +322,11 @@ a, a:hover{ color: #333; }
 #hide-collected{ max-width: 100%; font-weight: bold; }
 #backup-container{ width: 50%; min-width: 200px; margin: 0 auto 10px auto; }
 .text-below{ text-align: center; }
-#legend{ text-align: center; }
 
 .to-top{ color: #01449D; font-weight: bold; cursor: pointer; position: fixed; bottom: 1%; right: 1%; padding: 10px; }
 .to-top:hover{ color: #015eff; }
 
 .trophy-icon{ min-width: 64px; }
-.owned{ background: #fff09a; }
 .collected{ background: lightgreen; }
 .row{ padding: 5px; }
 .checkbox{ height: 20px; width: 20px; position: relative; left: 45%; top: 20px; }
@@ -358,10 +356,6 @@ a, a:hover{ color: #333; }
 
 @media all and (max-width: 991px){
     .col-xs-9{ padding-left: 30px; }
-}
-
-@media all and (max-width: 600px){
-    #legend{ display: none; }
 }
 
 @media all and (max-width: 480px){

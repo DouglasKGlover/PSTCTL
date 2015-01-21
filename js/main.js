@@ -1,15 +1,11 @@
 // Global variables
 var the = getCookie(listName + "ListProd2");
-if(listName == "customlist1"){ the = getCookie("custom-list-1ListProd2"); } else if(listName == "customlist2"){ the = getCookie("custom-list-2ListProd2"); }
 var theList = the.split(",");
-var currentGamesOwned = getCookie("gamesOwnedList");
-var currentGamesOwnedList = currentGamesOwned.split(",");
 var trophyCount = 0;
 var anyTrophies = 0;
 var hidden = "false";
 var thisList = listName+"List";
 var thisCounter = 1;
-var gamesOwnedThisList = 0;
 
 // Function for getting a cookie
 function getCookie(cname) {
@@ -42,25 +38,16 @@ function selectText(element) {
 }
 
 // Create divs w/ trophy content
-$("#list-container").append("" +
-    "<div class=\"row list-item\" id=\"legend\">" +
-    "<div class=\"col-xs-1\">Game</div>" +
-    "<div class=\"col-xs-1\">Trophy</div>" +
-    "</div>" +
-"");
 for(var i in window[thisList]){
     $("#list-container").append(""+
         "<div class='row list-item' id='"+ listName +"-"+ thisCounter +"'>"+
         "<div class='col-xs-1'>"+
-        "<input type='checkbox' class='own-game checkbox'/>"+
-        "</div>"+
-        "<div class='col-xs-1'>"+
-        "<input type='checkbox' class='have-trophy checkbox'/>"+
+        "<input type='checkbox' class='checkbox'/>"+
         "</div>"+
         "<div class='col-xs-1 trophy-icon'>"+
         "<img src='"+ window[thisList][i][0] +"' alt='Trophy Icon'/>"+
         "</div>"+
-        "<div class='col-sm-9 col-xs-12'>"+
+        "<div class='col-sm-10 col-xs-12'>"+
         "<h2>"+ window[thisList][i][1] +"</h2>"+
         "<p>"+ window[thisList][i][2] +"</p>"+
         "</div>"+
@@ -70,7 +57,7 @@ for(var i in window[thisList]){
 }
 
 // Variable has to instantiate AFTER trophy list has been built (above)
-var trophiesInList = $('.have-trophy').size();
+var trophiesInList = $('input[type=checkbox]').size();
 
 // List of lists for home page
 // NOTE: Replace w/ lists.js implementation?
@@ -181,7 +168,7 @@ for(var i = 0; i < (trophiesInList+1); i++){
     if(theList[i]=="true"){
         // Style collected trophies in the list
         $("#"+ listName +"-"+(i+1)).addClass("collected");
-        $("#"+ listName +"-"+(i+1)+" .have-trophy").prop('checked', true);
+        $("#"+ listName +"-"+(i+1)+" .checkbox").prop('checked', true);
 
         // List collected trophies in BBCode
         $("#bbCodeContent").append(""+
@@ -196,17 +183,6 @@ if(anyTrophies > 0){
         "[/spoiler]" +
     "");
 }
-
-// Color and check games that the user owns
-$("h2").each(function(){
-    var thisGameName = $(this).html().replace("&amp;", "&");
-    if($.inArray(thisGameName, currentGamesOwnedList) !== -1){
-        gamesOwnedThisList++;
-        $(this).closest(".list-item").addClass("owned");
-        $(this).closest(".list-item").find(".own-game").prop('checked', true);
-    }
-});
-$("#game-count").html(gamesOwnedThisList);
 
 // Get total trophies earned for current list, and add the color code class to the counter
 $("#trophy-count").html(trophyCount);
@@ -241,29 +217,11 @@ $(document).ready(function(){
         var CookieDate = new Date;
         CookieDate.setFullYear(CookieDate.getFullYear( ) +10);
         $(".collected").show();
-
-        // Cookie for trophies earned
         var sList = "";
-        $('.have-trophy').each(function () {
+        $('input[type=checkbox]').each(function () {
             sList += (this.checked ? "true," : "false,");
         });
-        if(listName == "customlist1"){ listName = "custom-list-1"; } else if(listName == "customlist2"){ listName = "custom-list-2"; }
         document.cookie=listName+"ListProd2="+sList.split(",")+";expires="+CookieDate.toGMTString()+"; path=/";
-
-        // Cookie for games owned
-        var oList = "";
-        var gamesOwnedCookie = getCookie("gamesOwnedList").split(",");
-        $('.own-game').each(function () {
-            if($(this).is(":checked")){
-                var thisGameName = $(this).closest(".list-item").find("h2").html().replace("&amp;", "&");
-                if($.inArray(thisGameName, gamesOwnedCookie) !== -1){ /* Do nothing */ }
-                else { oList += (thisGameName + ","); }
-            }
-        });
-        var newGamesOwnedList = gamesOwnedCookie + oList;
-        document.cookie="gamesOwnedList="+newGamesOwnedList.split(",")+";expires="+CookieDate.toGMTString()+"; path=/";
-
-        // Reload to re-style page
         location.reload();
     });
 
@@ -285,11 +243,6 @@ $(document).ready(function(){
     // When user clicks on BBCode section, select the text contained within the <pre>
     $("#bbCodeContent").click(function(){
         selectText("bbCodeContent");
-    });
-
-    // When user clicks a trophy earned, we can assume they own the game
-    $(".have-trophy").click(function(){
-        $(this).closest(".list-item").find(".own-game").prop("checked", true);
     });
 
     // When user clicks on "Cookies" button, show modal with copy&paste cookie code (Home Page)

@@ -207,6 +207,11 @@ if(trophiesInList==30){
 
 $(document).ready(function(){
 
+    // Delete Games Owned Cookie :(
+    var deleteDate = new Date;
+    deleteDate.setFullYear(deleteDate.getFullYear( ) +10);
+    document.cookie="gamesOwnedList=false;expires="+deleteDate.toGMTString()+"; path=/";
+
     // Scroll to Top onclick
     $(".to-top").click(function(){
         $("html, body").animate({ scrollTop: 0 }, 500);

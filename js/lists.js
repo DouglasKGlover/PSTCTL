@@ -1,4 +1,4 @@
-var listList = ["custom-list-1","custom-list-2","christmas","apple","ash","bread","dafaztfingaz","fletch","football","gamer","glenn","germain","harry","irvine","labartu","mendel","olsen","phantom","sav","shadow","sylar","terminator","tech","tuffmuff","vyrastas","woody"];
+var listList = ["custom-list-1","custom-list-2","christmas","apple","ash","bread","dafaztfingaz","fletch","football","gamer","glenn","germain","harry","irvine","labartu","mendel","olsen","phantom","sav","shadow","sylar","terminator","tech","trik","tuffmuff","vazz","vyrastas","woody","xander"];
 
 var christmasList = [
     ["http://www.playstationtrophies.org/images/trophies/1223/BD5.jpg", "Devil May Cry HD", "Cold Turkey - Fight Griffon a second time and prevail"],
@@ -675,6 +675,39 @@ var techList = [
     ["http://www.playstationtrophies.org/images/trophies/113/035.jpg", "X-Men Origins: Wolverine", "WoW! - You feel a cold as you examine the sword and skeleton. A rustle of wind in the trees faintly echoes the name Arthas"]
 ];
 
+var trikList = [
+    ["http://www.playstationtrophies.org/images/trophies/2233/09a.jpg", "Assassin's Creed IV: Black Flag", "Devil Of The Caribbean - Defeat all 4 legendary ships."],
+    ["http://www.playstationtrophies.org/images/trophies/398/15.jpg", "Batman: Arkham City", "Exit Stage Right - All the world is a stage"],
+    ["http://www.playstationtrophies.org/images/trophies/1145/63F.jpg", "Borderlands 2", "So Much Blood! - Gunzerked continuously for 90 seconds"],
+    ["http://www.playstationtrophies.org/images/trophies/2734/37e.jpg", "Call of Duty: Advanced Warfare", "Flip Flop - \"Flip\" a map twice."],
+    ["http://www.playstationtrophies.org/images/trophies/1123/13C.jpg", "Dishonored", "Just Dark Enough - You completed the game in low chaos"],
+    ["http://www.playstationtrophies.org/images/trophies/2254/340.jpg", "Dragon Age: Inquisition", "Stargazer - Unlock 15 astrariums in a single playthrough."],
+    ["http://www.playstationtrophies.org/images/trophies/343/38.jpg", "Fallout: New Vegas", "Wild Card - Completed Wild Card."],
+    ["http://www.playstationtrophies.org/images/trophies/922/34E.jpg", "Far Cry 3", "Heartless Pyro - Kill 50 enemies with the flamethrower (Single Player only)."],
+    ["http://www.playstationtrophies.org/images/trophies/2441/ff1.jpg", "Game of Thrones", "Love and Hostility - Completed Chapter 6 of Episode 2"],
+    ["http://www.playstationtrophies.org/images/trophies/263/1.jpg", "God of War", "Sword Man - Acquire Blade of Artemis"],
+    ["http://www.playstationtrophies.org/images/trophies/1936/df3.jpg", "inFamous: Second Son", "Coloring Inside the Lines - Complete all the Stencil Art"],
+    ["http://www.playstationtrophies.org/images/trophies/2392/3A6.jpg", "Injustice: Gods Among Us", "Rise to the Top - Complete Classic Battle with any character"],
+    ["http://www.playstationtrophies.org/images/trophies/358/05.jpg", "L.A. Noire", "No Rest For The Wicked - Complete all cases on the Vice desk."],
+    ["http://www.playstationtrophies.org/images/trophies/845/6F3.jpg", "Mass Effect 3", "Patriot - Make the final assault."],
+    ["http://www.playstationtrophies.org/images/trophies/2378/29b.jpg", "Middle-Earth: Shadow of Mordor", "Ratbag the Great and Powerful - Get Ratbag promoted to Warchief."],
+    ["http://www.playstationtrophies.org/images/trophies/1243/14.jpg", "Puss in Boots", "All I need are the boots, baby! - Complete the game"],
+    ["http://www.playstationtrophies.org/images/trophies/1671/1C6.jpg", "Remember Me", "The wheat and the chaff - Beat Madame without hitting any of her clones"],
+    ["http://www.playstationtrophies.org/images/trophies/1378/067.jpg", "Sleeping Dogs", "Stuntman - Successfully perform an action hijack."],
+    ["http://www.playstationtrophies.org/images/trophies/2302/f13.jpg", "Sniper Elite III", "Charlie's Challenge - Get a testicle-shot from over 100m away"],
+    ["http://www.playstationtrophies.org/images/trophies/1314/6FE.jpg", "South Park: The Stick of Truth", "For the Hoarder - You completed the game without selling any items."],
+    ["http://www.playstationtrophies.org/images/trophies/613/6D4.jpg", "", "I like turtles! (http://i.imgur.com/BUQTZls.gif)"],
+    ["http://www.playstationtrophies.org/images/trophies/826/32.jpg", "The Elder Scrolls V: Skyrim", "Citizen - Buy a house"],
+    ["http://www.playstationtrophies.org/images/trophies/1317/4F4.jpg", "The Last of Us", "That's all I got - Survive all of Ellie's jokes"],
+    ["http://www.playstationtrophies.org/images/trophies/1063/21.jpg", "The Sims 3: Pets", "K9 Cop - Complete each of the k9 cop scenario Challenges."],
+    ["http://www.playstationtrophies.org/images/trophies/3095/fab.jpg", "The Walking Dead: Season 2", "Beyond the Trees - Completed Episode 4: \"Amid the Ruins\""],
+    ["http://www.playstationtrophies.org/images/trophies/3099/c27.jpg", "The Wolf Among Us", "No Respect for the Dead - Completed Episode 2: \"Smoke and Mirrors\""],
+    ["http://www.playstationtrophies.org/images/trophies/373/48.jpg", "Uncharted 3: Drake's Deception", "Marco Solo - Play in the swimming pool on the Cruise Ship"],
+    ["http://www.playstationtrophies.org/images/trophies/2250/5cc.jpg", "Watch Dogs", "They Call Him The Vigilante - Complete every Investigation"],
+    ["http://www.playstationtrophies.org/images/trophies/1350/4D9.jpg", "XCOM: Enemy Unknown", "Hunter/Killer - In a single game, shoot down one of each alien craft."],
+    ["http://www.playstationtrophies.org/images/trophies/2434/91.jpg", "Zen Pinball 2", "Pimped out Butters is Pimpin' - Activate Butters' Outfit mode and collect a new outfit on the South Park: Butters' very own pinball game."]
+];
+
 var tuffmuffList = [
     ["http://www.playstationtrophies.org/images/trophies/55/022.jpg", "Battlefield: Bad Company [15.38%]", "Manic Lumberjack - Knock down a small forest"],
     ["http://www.playstationtrophies.org/images/trophies/326/04.jpg", "Battlefield: Bad Company 2 [36.54%]", "It's bad for my karma man! - Campaign: finish Heart of Darkness"],
@@ -706,6 +739,39 @@ var tuffmuffList = [
     ["http://www.playstationtrophies.org/images/trophies/1543/241.jpg", "Super Hang-On [28.85%]", "The Kiss of Fate - Cross the checkpoint with 1 second left."],
     ["http://www.playstationtrophies.org/images/trophies/826/46.jpg", "The Elder Scrolls V: Skyrim [40.38%]", "Words of Power - Learn all three words of a shout"],
     ["http://www.playstationtrophies.org/images/trophies/920/A45.jpg", "Voltron: Defender of the Universe [7.69%]", "Blazing Victory - Kill a Robeast without Voltron losing any health."]
+];
+
+var vazzList = [
+    ["http://www.playstationtrophies.org/images/trophies/840/08.jpg", "Back to the Future: The Game", "One Bad Apple - Collect every Demerit in the game."],
+    ["http://www.playstationtrophies.org/images/trophies/192/39.jpg", "Batman: Arkham Asylum", "Crack The E Nigma - Solve every riddle on the island"],
+    ["http://www.playstationtrophies.org/images/trophies/1145/77D.jpg", "Borderlands 2", "Sugar Daddy - Tipped Moxxi $10,000"],
+    ["http://www.playstationtrophies.org/images/trophies/2985/a4b.jpg", "Diablo III: Reaper of Souls", "Up All Night To Get Lucky - Equip all Inventory slots with Legendary items that have a minimum required level of 70 or higher."],
+    ["http://www.playstationtrophies.org/images/trophies/70/018.jpg", "Fallout 3", "The Nuka-Cola Challenge - Completed 'The Nuka-Cola Challenge'"],
+    ["http://www.playstationtrophies.org/images/trophies/1532/137.jpg", "Family Guy: Back To The Multiverse", "Grease Can't Save You Now - Win a Capture the \"Greased-Up Deaf Guy\" match"],
+    ["http://www.playstationtrophies.org/images/trophies/2380/b3a.jpg", "Flower", "Discovery - Find and bloom a secret flower."],
+    ["http://www.playstationtrophies.org/images/trophies/1392/39.jpg", "Gravity Rush", "Gem Aficionado - Collected a total of 40,000 precious gems."],
+    ["http://www.playstationtrophies.org/images/trophies/321/07.jpg", "Heavy Rain", "FBI Investigator - Crime Scene - Find all clues related to the Origami Killer in the scene "],
+    ["http://www.playstationtrophies.org/images/trophies/1819/2F4.jpg", "Jetpack Joyride", "High Roller - Lose the final spin 100 times total"],
+    ["http://www.playstationtrophies.org/images/trophies/329/01.jpg", "Just Cause 2", "Globetrotter - Discover 100 locations."],
+    ["http://www.playstationtrophies.org/images/trophies/358/35.jpg", "L.A. Noire", "Public Menace - Rack up $47,000 in penalties during a single story case."],
+    ["http://www.playstationtrophies.org/images/trophies/2242/FBA.jpg", "LEGO Marvel Super Heroes", "Billionaire Philanthropist - Collect 1,000,000,000 studs (Single Player)"],
+    ["http://www.playstationtrophies.org/images/trophies/216/38.jpg", "Marvel: Ultimate Alliance 2", "Above and Beyond - Collect 200 Team Boosts."],
+    ["http://www.playstationtrophies.org/images/trophies/703/44.jpg", "Mass Effect 2", "Explorer - Visit 100% of the planets in an unexplored cluster"],
+    ["http://www.playstationtrophies.org/images/trophies/2365/57b.jpg", "MLB 14 The Show", "Paul \"America's First Baseman\" Goldschmidt - In any game mode with Paul Goldschmidt, collect 4 hits, drive in 4 RBI, and score 4 runs in a single game (excludes Community Challenge mode). Must be done in a full, uninterrupted, 9 inning game against a CPU team. Changing teams during the game or using the Quick Counts feature will invalidate this trophy."],
+    ["http://www.playstationtrophies.org/images/trophies/1579/0B9.jpg", "Need For Speed: Most Wanted", "Love Them and Leave Them - Drive every Car"],
+    ["http://www.playstationtrophies.org/images/trophies/1926/7DE.jpg", "Persona 4 Golden", "Lucky Me! - Win a prize from the vending machine"],
+    ["http://www.playstationtrophies.org/images/trophies/2001/FFA.jpg", "Poker Night 2", "Trophy Wife - Win Claptrap's bounty item."],
+    ["http://www.playstationtrophies.org/images/trophies/142/21.jpg", "Red Faction: Guerrilla", "Disaster Area - Destroy 1 billion credits worth of EDF property."],
+    ["http://www.playstationtrophies.org/images/trophies/173/25.jpg", "Sega Mega Drive Ultimate Genesis", "Lots of Zeros - Sonic Spinball: Get 10,000,000 points in the first level"],
+    ["http://www.playstationtrophies.org/images/trophies/1378/0E8.jpg", "Sleeping Dogs", "Infowlable - Win 50,000 on a single cockfight."],
+    ["http://www.playstationtrophies.org/images/trophies/796/33.jpg", "Sly 2: Band of Thieves", "Loot! - Collect 1,500 coins"],
+    ["http://www.playstationtrophies.org/images/trophies/1314/34F.jpg", "South Park: The Stick of Truth", "More Popular Than John Lennon - Everyone in South Park is your friend."],
+    ["http://www.playstationtrophies.org/images/trophies/506/63.jpg", "Spider-Man: Shattered Dimensions", "Fanatic - Collect 500 Spider Emblems"],
+    ["http://www.playstationtrophies.org/images/trophies/50/007.jpg", "The Godfather II", "Organized Crime - Control all crime rings."],
+    ["http://www.playstationtrophies.org/images/trophies/8/1.jpg", "Uncharted: Drake's Fortune", "Relic Finder - Find the strange relic"],
+    ["http://www.playstationtrophies.org/images/trophies/214/10.jpg", "Uncharted 2: Among Thieves", "Expert Fortune Hunter - Find 80 treasures"],
+    ["http://www.playstationtrophies.org/images/trophies/1092/42.jpg", "Uncharted: Golden Abyss", "Treasure: Turquoise Glyphs - Complete the treasure set."],
+    ["http://www.playstationtrophies.org/images/trophies/235/12.jpg", "WWE SmackDown vs. RAW 2010", "Nothing More to Collect - Unlock all the playable characters and bonus items."]
 ];
 
 var vyrastasList = [
@@ -772,4 +838,37 @@ var woodyList = [
     ["http://www.playstationtrophies.org/images/trophies/999/29.jpg", "Sonic Generations [19.30%]", "Action Hero - Perform all of Sonic's moves in Act 2."],
     ["http://www.playstationtrophies.org/images/trophies/397/11.jpg", "Star Wars: The Force Unleashed II [33.33%]", "A Measure of Mercy - Complete the game and choose the Light Side ending"],
     ["http://www.playstationtrophies.org/images/trophies/113/006.jpg", "X-Men Origins: Wolverine [26.32%]", "The Dead Pool - Defeated Weapon 11 (Deadpool)"]
+];
+
+var xanderList = [
+    ["http://www.playstationtrophies.org/images/trophies/751/1B7.jpg", "Asura's Wrath", "It Takes Two - Defeat Deus with Yasha in Episode 17."],
+    ["http://www.playstationtrophies.org/images/trophies/23/53.jpg", "Bioshock", "I Chose the Impossible - Complete the game on Survivor difficulty without using a Vita-chamber"],
+    ["http://www.playstationtrophies.org/images/trophies/1145/39E.jpg", "Borderlands 2", "Up High, Down Low - Gave Claptrap a high five"],
+    ["http://www.playstationtrophies.org/images/trophies/422/30.jpg", "Call of Duty: Modern Warfare 3", "This Is My Boomstick - Kill 30 enemies with the XM25 in 'Black Tuesday.'"],
+    ["http://www.playstationtrophies.org/images/trophies/380/26.jpg", "Catherine", "Play It Again, Vince... - Use the jukebox to change the music."],
+    ["http://www.playstationtrophies.org/images/trophies/325/25.jpg", "Dead Rising 2", "Look at All That Juice - Create and consume all mixed drinks in the game"],
+    ["http://www.playstationtrophies.org/images/trophies/1017/15.jpg", "Dragon Ball Z: Ultimate Tenkaichi", "All 7 Are Here! - Do a Chase Battle in Story Mode for the first time"],
+    ["http://www.playstationtrophies.org/images/trophies/596/45.jpg", "El Shaddai: Ascension of the Metatron", "Indomitable Soul - Execute 50 recovers."],
+    ["http://www.playstationtrophies.org/images/trophies/70/035.jpg", "Fallout 3", "Pinnacle of Survival - Reached Level 14 with Neutral Karma"],
+    ["http://www.playstationtrophies.org/images/trophies/1184/a50.jpg", "Final Fantasy X HD", "Show Off! - Win a blitzball tournament"],
+    ["http://www.playstationtrophies.org/images/trophies/263/3.jpg", "God of War", "You Got the Touch! - Climbed the Spiked Column in Hades without taking damage"],
+    ["http://www.playstationtrophies.org/images/trophies/1923/0CB.jpg", "Hotline Miami", "These Are My Guns - Complete chapter five barehanded"],
+    ["http://www.playstationtrophies.org/images/trophies/329/01.jpg", "Just Cause 2", "I Believe I Can Fly - Base jump 1000 meters."],
+    ["http://www.playstationtrophies.org/images/trophies/222/28.jpg", "Katamari Forever", "Rolling Expert - Rolled up 7,650 objects before completing a Request."],
+    ["http://www.playstationtrophies.org/images/trophies/1939/920.jpg", "Kingdom Hearts Final Mix HD", "Coliseum Champion - Win the Hades Cup"],
+    ["http://www.playstationtrophies.org/images/trophies/1054/45.jpg", "Metal Gear Solid 3: Snake Eater HD", "Like a Boss - Finish the game on any difficulty"],
+    ["http://www.playstationtrophies.org/images/trophies/1399/B5C.jpg", "Ni No Kuni: Wrath of the White Witch", "Treasure Hunter - Awarded for finding all hidden treasure chests."],
+    ["http://www.playstationtrophies.org/images/trophies/1603/114.jpg", "Okami HD", "No Furball on the Menu - Make your way to shore without being swallowed by the Water Dragon."],
+    ["http://www.playstationtrophies.org/images/trophies/2172/122.jpg", "Ratchet & Clank: Into the Nexus", "In Case of Zombies... - Purchase all weapons."],
+    ["http://www.playstationtrophies.org/images/trophies/1526/8E8.jpg", "Rayman Legends", "Splinter Ray - Go through \"Mansion of the Deep\" without crossing any light from a Dark Sentry or touching any laser"],
+    ["http://www.playstationtrophies.org/images/trophies/340/18.jpg", "Red Dead Redemption", "People are Still Strange - Complete 15 tasks for Strangers."],
+    ["http://www.playstationtrophies.org/images/trophies/1971/B86.jpg", "Saints Row IV", "You Chose... Poorly - Surrender when given the chance."],
+    ["http://www.playstationtrophies.org/images/trophies/999/50.jpg", "Sonic Generations", "Mission Accomplished! - Clear all the Challenge Acts."],
+    ["http://www.playstationtrophies.org/images/trophies/1085/729.jpg", "Tekken Tag Tournament HD", "One Man Army - Win 10 rounds without tagging."],
+    ["http://www.playstationtrophies.org/images/trophies/826/21.jpg", "The Elder Scrolls V: Skyrim", "Hail Sithis - Complete 'Hail Sithis!'"],
+    ["http://www.playstationtrophies.org/images/trophies/2182/E32.jpg", "The LEGO Movie Videogame", "SPACESHIP SPACESHIP! - Complete all Master Builds in Server Room as Benny."],
+    ["http://www.playstationtrophies.org/images/trophies/1792/D7C.jpg", "ToeJam & Earl in Panic on Funkotron", "Inner Child - [TJ&E2] Clear \"Lil' Kid Mode\"."],
+        ["http://www.playstationtrophies.org/images/trophies/1518/4D5.jpg", "Tokyo Jungle", "King of the Jungle - Survive 100 years in SURVIVAL."],
+        ["http://www.playstationtrophies.org/images/trophies/214/02.jpg", "Uncharted 2: Among Thieves", "First Treasure - Find one treasure"],
+        ["http://www.playstationtrophies.org/images/trophies/251/16.jpg", "Where the Wild Things Are", "Friend of Alexander - Collect 25 Turtles"]
 ];

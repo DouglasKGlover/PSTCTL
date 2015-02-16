@@ -84,10 +84,13 @@ var homePageLists = [
     "sylar",
     "tech",
     "terminator",
+    "trik",
     "gamer",
     "tuffmuff",
+    "vazz",
     "vyrastas",
-    "woody"
+    "woody",
+    "xander"
 ];
 
 // Total across lists (Home Page)

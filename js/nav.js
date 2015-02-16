@@ -37,9 +37,13 @@ document.write(''+
     '<li role="presentation"><a href="../tech/">Tech\'s Turrets Syndrome</a></li>'+
     '<li role="presentation"><a href="../terminator/">Terminator\'s Journey to Salvation</a></li>'+
     '<li role="presentation"><a href="../the-123-gamer/">The Gamer\'s Favourites</a></li>'+
+    '<li role="presentation"><a href="../trik/">Trik\'s Troll Toll</a></li>'+
 	'<li role="presentation"><a href="../tuffmuff/">Tuff\'s Muff Licker List</a></li>'+
     '<li role="presentation" class="divider"></li>'+
+    '<li role="presentation"><a href="../vazz/">VazzVegas\'s Gambling and Looting Extravaganza</a></li>'+
     '<li role="presentation"><a href="../vyrastas/">Vy\'s Glow in the Dark Role Playing Mix</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../woody/">Woody\'s Canaries</a></li>'+
+	'<li role="presentation" class="divider"></li>'+
+	'<li role="presentation"><a href="../xander/">Xander45\'s Links to the Past</a></li>'+
 '');

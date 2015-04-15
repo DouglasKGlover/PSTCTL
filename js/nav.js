@@ -9,6 +9,7 @@ document.write(''+
 	'<li role="presentation"><a href="../ash/">Ash\'s The Good, The Bad and The Odd</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../bread/">Bread\'s Y U No Play These Games</a></li>'+
+	'<li role="presentation"><a href="../bounty/">Bounty V\'s I Game 4GOD List</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../dafaztfingaz/">DaFaztFingaz\' Faztezt Fingaz</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
@@ -22,12 +23,17 @@ document.write(''+
     '<li role="presentation" class="divider"></li>'+
     '<li role="presentation"><a href="../irvine/">Irvine\'s Idyllic Inventory of Trophies</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
+    '<li role="presentation"><a href="../krid/">Krid\'s Korrupt Kollection</a></li>'+
+	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../labartu/">Lab\'s \"Did Someone Say Chimichanga?\" List</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../mendel/">Mendel\'s Bad Guy Club</a></li>'+
+	'<li role="presentation"><a href="../moosh/">Moosh\'s Trophy Train Wreck</a></li>'+
+	'<li role="presentation"><a href="../mulli/">Mulli\'s Honey Badger Don\'t Care About Your Trophies</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../olsen/">Olsen\'s Bullet Hell</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
+    '<li role="presentation"><a href="../pain/">Pain\'s Disturbingly Sweet Demise</a></li>'+
 	'<li role="presentation"><a href="../phantom/">Phantom\'s Odds and Sods List</a></li>'+
 	'<li role="presentation" class="divider"></li>'+
 	'<li role="presentation"><a href="../sav/">Sav\'s: For the Love of Platinum</a></li>'+
@@ -37,6 +43,7 @@ document.write(''+
     '<li role="presentation"><a href="../tech/">Tech\'s Turrets Syndrome</a></li>'+
     '<li role="presentation"><a href="../terminator/">Terminator\'s Journey to Salvation</a></li>'+
     '<li role="presentation"><a href="../the-123-gamer/">The Gamer\'s Favourites</a></li>'+
+    '<li role="presentation"><a href="../theman/">TheManUtdFan\'s Saints, Sinners and More</a></li>'+
     '<li role="presentation"><a href="../trik/">Trik\'s Troll Toll</a></li>'+
 	'<li role="presentation"><a href="../tuffmuff/">Tuff\'s Muff Licker List</a></li>'+
     '<li role="presentation" class="divider"></li>'+

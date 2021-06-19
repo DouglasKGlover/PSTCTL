@@ -1,7 +1,7 @@
 # PSTCTL
 Playstation Trophies - Custom Trophy Lists Site
 
-As a member of the [https://playstationtrophies.org](playstationtrophies.org community) I made this simple site to track progress on custom trophy lists. 
+As a member of the (https://playstationtrophies.org)[playstationtrophies.org community] I made this simple site to track progress on custom trophy lists. 
 
 These were lists curated by staff members on the site to get users engaged in completing Playstation games and earning trophies across various games and genres.
 
